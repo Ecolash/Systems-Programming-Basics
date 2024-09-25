@@ -1,9 +1,9 @@
-Associated with CS29206 Systems Programming Laboratory Course @ IITKGP
-=======================================================================
+Systems Programming Laboratory (CS29206) Course @ IITKGP
+========================================================
 Most of the assignments contains a shellscript file run.sh
 To run the code, use the command ./run.sh
 If permission is denied, use command: chmod +x run.sh
-=======================================================================
+
 This repository contains the following assignments:
 
 1) Assignment-1: Multi-File Applications & Libraries  
