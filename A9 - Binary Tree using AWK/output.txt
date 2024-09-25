@@ -1,0 +1,35 @@
+Going to read tree with 22 nodes
+
+  elephant :  Index =   9  Left child = -           Right child = hyena     
+       cat :  Index =   5  Left child = BM          Right child = lion      
+    monkey :  Index =  15  Left child = dolphin     Right child = otter     
+      wolf :  Index =  21  Left child = civet       Right child = -         
+       dog :  Index =  11  Left child = rhino       Right child = rat       
+    walrus :  Index =   2  Left child = -           Right child = AD        
+     civet :  Index =  22  Left child = -           Right child = -         
+       cow :  Index =   7  Left child = deer        Right child = elephant  
+      bear :  Index =   1  Left child = walrus      Right child = -         
+      deer :  Index =   8  Left child = bear        Right child = whale     
+        AD :  Index =  20  Left child = -           Right child = -         
+        BM :  Index =   3  Left child = tiger       Right child = -         
+     rhino :  Index =  12  Left child = cat         Right child = -         
+      goat :  Index =  19  Left child = -           Right child = -         
+   dolphin :  Index =  17  Left child = -           Right child = -         
+       bat :  Index =  16  Left child = -           Right child = -         
+     otter :  Index =  18  Left child = -           Right child = -         
+     whale :  Index =  10  Left child = -           Right child = wolf      
+       rat :  Index =  13  Left child = goat        Right child = cow       
+     hyena :  Index =  14  Left child = -           Right child = -         
+     tiger :  Index =   4  Left child = -           Right child = -         
+      lion :  Index =   6  Left child = monkey      Right child = bat       
+
+The root node has index 11 and key "dog"
+
+Inorder listing of the keys:
+     tiger         BM        cat    dolphin     monkey 
+     otter       lion        bat      rhino        dog 
+      goat        rat     walrus         AD       bear 
+      deer      whale      civet       wolf        cow 
+  elephant      hyena 
+
+Bye...

@@ -1,0 +1,5684 @@
+[0--18] CPU idle
+						[18] P48 arrives
+[At time 18]
+   Q1: P48
+   Q2:
+   Q3:
+[18--27] CPU runs P48
+						[27] P48 starts IO
+[At time 27]
+   Q1:
+   Q2:
+   Q3:
+[27--45] CPU idle
+						[45] P46 arrives
+[At time 45]
+   Q1:
+   Q2:
+   Q3: P46
+[45--53] CPU runs P46
+						[49] P12 arrives
+						[53] P46 starts IO
+[At time 53]
+   Q1:
+   Q2:
+   Q3: P12
+[53--58] CPU runs P12
+						[58] P12 starts IO
+[At time 58]
+   Q1:
+   Q2:
+   Q3:
+[58--92] CPU idle
+						[92] P48 completes IO
+[At time 92]
+   Q1: P48
+   Q2:
+   Q3:
+[92--100] CPU runs P48
+						[93] P49 arrives
+						[95] P26 arrives
+						[100] P48 starts IO
+[At time 100]
+   Q1:
+   Q2: P26
+   Q3: P49
+[100--106] CPU runs P26
+						[106] P26 starts IO
+[At time 106]
+   Q1:
+   Q2:
+   Q3: P49
+[106--115] CPU runs P49
+						[115] P49 starts IO
+[At time 115]
+   Q1:
+   Q2:
+   Q3:
+[115--125] CPU idle
+						[125] P46 completes IO
+[At time 125]
+   Q1:
+   Q2:
+   Q3: P46
+[125--131] CPU runs P46
+						[131] P46 starts IO
+[At time 131]
+   Q1:
+   Q2:
+   Q3:
+[131--134] CPU idle
+						[134] P12 completes IO
+[At time 134]
+   Q1:
+   Q2:
+   Q3: P12
+[134--142] CPU runs P12
+						[142] P12 starts IO
+[At time 142]
+   Q1:
+   Q2:
+   Q3:
+[142--190] CPU idle
+						[190] P26 completes IO
+[At time 190]
+   Q1:
+   Q2: P26
+   Q3:
+[190--197] CPU runs P26
+						[195] P48 completes IO
+						[197] P26 starts IO
+[At time 197]
+   Q1: P48
+   Q2:
+   Q3:
+[197--205] CPU runs P48
+						[199] P49 completes IO
+						[200] P37 arrives
+						[205] P48 starts IO
+[At time 205]
+   Q1:
+   Q2: P37
+   Q3: P49
+[205--212] CPU runs P37
+						[212] P37 starts IO
+[At time 212]
+   Q1:
+   Q2:
+   Q3: P49
+[212--220] CPU runs P49
+						[213] P16 arrives
+						[215] P46 completes IO
+						[220] P49 starts IO
+[At time 220]
+   Q1: P16
+   Q2:
+   Q3: P46
+[220--228] CPU runs P16
+						[228] P16 starts IO
+[At time 228]
+   Q1:
+   Q2:
+   Q3: P46
+[228--238] CPU runs P46
+						[230] P12 completes IO
+						[238] P46 starts IO
+[At time 238]
+   Q1:
+   Q2:
+   Q3: P12
+[238--245] CPU runs P12
+						[245] P12 starts IO
+[At time 245]
+   Q1:
+   Q2:
+   Q3:
+[245--254] CPU idle
+						[254] P34 arrives
+[At time 254]
+   Q1: P34
+   Q2:
+   Q3:
+[254--262] CPU runs P34
+						[259] P9 arrives
+						[262] P34 starts IO
+[At time 262]
+   Q1: P9
+   Q2:
+   Q3:
+[262--271] CPU runs P9
+						[271] P9 starts IO
+[At time 271]
+   Q1:
+   Q2:
+   Q3:
+[271--272] CPU idle
+						[272] P26 completes IO
+[At time 272]
+   Q1:
+   Q2: P26
+   Q3:
+[272--281] CPU runs P26
+						[281] P49 completes IO
+						[281] P26 starts IO
+[At time 281]
+   Q1:
+   Q2:
+   Q3: P49
+[281--288] CPU runs P49
+						[288] P49 starts IO
+[At time 288]
+   Q1:
+   Q2:
+   Q3:
+[288--294] CPU idle
+						[294] P44 arrives
+[At time 294]
+   Q1:
+   Q2: P44
+   Q3:
+[294--299] CPU runs P44
+						[297] P12 completes IO
+						[297] P37 completes IO
+						[299] P44 starts IO
+[At time 299]
+   Q1:
+   Q2: P37
+   Q3: P12
+[299--309] CPU runs P37
+						[302] P1 arrives
+						[304] P48 completes IO
+						[309] P37 starts IO
+[At time 309]
+   Q1: P48
+   Q2: P1
+   Q3: P12
+[309--314] CPU runs P48
+						[314] P48 starts IO
+[At time 314]
+   Q1:
+   Q2: P1
+   Q3: P12
+[314--321] CPU runs P1
+						[320] P34 completes IO
+						[321] P1 starts IO
+[At time 321]
+   Q1: P34
+   Q2:
+   Q3: P12
+[321--330] CPU runs P34
+						[323] P31 arrives
+						[326] P16 completes IO
+						[330] P34 starts IO
+[At time 330]
+   Q1: P16
+   Q2:
+   Q3: P12 P31
+[330--338] CPU runs P16
+						[334] P46 completes IO
+						[335] P32 arrives
+						[338] P16 starts IO
+[At time 338]
+   Q1: P32
+   Q2:
+   Q3: P12 P31 P46
+[338--346] CPU runs P32
+						[346] P32 starts IO
+[At time 346]
+   Q1:
+   Q2:
+   Q3: P12 P31 P46
+[346--355] CPU runs P12
+						[353] P19 arrives
+						[355] P12 starts IO
+[At time 355]
+   Q1:
+   Q2:
+   Q3: P31 P46 P19
+[355--365] CPU runs P31
+						[358] P9 completes IO
+						[359] P26 completes IO
+						[365] P31 starts IO
+[At time 365]
+   Q1: P9
+   Q2: P26
+   Q3: P46 P19
+[365--371] CPU runs P9
+						[371] P9 starts IO
+[At time 371]
+   Q1:
+   Q2: P26
+   Q3: P46 P19
+[371--381] CPU runs P26
+						[374] P49 completes IO
+						[376] P47 arrives
+						[381] P26 starts IO
+[At time 381]
+   Q1:
+   Q2: P47
+   Q3: P46 P19 P49
+[381--390] CPU runs P47
+						[389] P44 completes IO
+						[389] P48 completes IO
+						[390] P47 starts IO
+[At time 390]
+   Q1: P48
+   Q2: P44
+   Q3: P46 P19 P49
+[390--397] CPU runs P48
+						[392] P43 arrives
+						[397] P48 starts IO
+[At time 397]
+   Q1: P43
+   Q2: P44
+   Q3: P46 P19 P49
+[397--407] CPU runs P43
+						[398] P37 completes IO
+						[400] P16 completes IO
+						[407] P43 starts IO
+[At time 407]
+   Q1: P16
+   Q2: P44 P37
+   Q3: P46 P19 P49
+[407--416] CPU runs P16
+						[409] P28 arrives
+						[416] P1 completes IO
+						[416] P16 starts IO
+[At time 416]
+   Q1:
+   Q2: P44 P37 P28 P1
+   Q3: P46 P19 P49
+[416--422] CPU runs P44
+						[419] P12 completes IO
+						[422] P44 starts IO
+[At time 422]
+   Q1:
+   Q2: P37 P28 P1
+   Q3: P46 P19 P49 P12
+[422--432] CPU runs P37
+						[424] P34 completes IO
+						[426] P9 completes IO
+						[427] P40 arrives
+						[432] P37 starts IO
+[At time 432]
+   Q1: P34 P9
+   Q2: P28 P1
+   Q3: P46 P19 P49 P12 P40
+[432--442] CPU runs P34
+						[441] P15 arrives
+						[442] P34 starts IO
+[At time 442]
+   Q1: P9 P15
+   Q2: P28 P1
+   Q3: P46 P19 P49 P12 P40
+[442--449] CPU runs P9
+						[445] P32 completes IO
+						[446] P31 completes IO
+						[448] P26 completes IO
+						[449] P9 starts IO
+[At time 449]
+   Q1: P15 P32
+   Q2: P28 P1 P26
+   Q3: P46 P19 P49 P12 P40 P31
+[449--459] CPU runs P15
+						[455] P2 arrives
+						[459] P15 starts IO
+[At time 459]
+   Q1: P32 P2
+   Q2: P28 P1 P26
+   Q3: P46 P19 P49 P12 P40 P31
+[459--467] CPU runs P32
+						[461] P47 completes IO
+						[464] P43 completes IO
+						[467] P32 starts IO
+[At time 467]
+   Q1: P2 P43
+   Q2: P28 P1 P26 P47
+   Q3: P46 P19 P49 P12 P40 P31
+[467--477] CPU runs P2
+						[476] P21 arrives
+						[477] P2 starts IO
+[At time 477]
+   Q1: P43 P21
+   Q2: P28 P1 P26 P47
+   Q3: P46 P19 P49 P12 P40 P31
+[477--483] CPU runs P43
+						[483] P43 starts IO
+[At time 483]
+   Q1: P21
+   Q2: P28 P1 P26 P47
+   Q3: P46 P19 P49 P12 P40 P31
+[483--491] CPU runs P21
+						[488] P35 arrives
+						[491] P37 completes IO
+						[491] P21 starts IO
+[At time 491]
+   Q1:
+   Q2: P28 P1 P26 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35
+[491--500] CPU runs P28
+						[497] P48 completes IO
+						[498] P29 arrives
+						[500] P28 starts IO
+[At time 500]
+   Q1: P48
+   Q2: P1 P26 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29
+[500--510] CPU runs P48
+						[501] P7 arrives
+						[501] P16 completes IO
+						[502] P22 arrives
+						[505] P44 completes IO
+						[506] P9 completes IO
+						[510] P48 starts IO
+[At time 510]
+   Q1: P16 P9
+   Q2: P1 P26 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22
+[510--515] CPU runs P16
+						[515] P16 starts IO
+[At time 515]
+   Q1: P9
+   Q2: P1 P26 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22
+[515--520] CPU runs P9
+						[520] P9 starts IO
+[At time 520]
+   Q1:
+   Q2: P1 P26 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22
+[520--525] CPU runs P1
+						[521] P10 arrives
+						[525] P1 starts IO
+[At time 525]
+   Q1:
+   Q2: P26 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22
+[525--530] CPU runs P26
+						[528] P34 completes IO
+						[530] P26 starts IO
+[At time 530]
+   Q1: P34
+   Q2: P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22
+[530--540] CPU runs P34
+						[534] P17 arrives
+						[534] P32 completes IO
+						[540] P34 starts IO
+[At time 540]
+   Q1: P32
+   Q2: P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17
+[540--548] CPU runs P32
+						[544] P43 completes IO
+						[548] P32 starts IO
+[At time 548]
+   Q1: P43
+   Q2: P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17
+[548--556] CPU runs P43
+						[549] P15 completes IO
+						[556] P43 starts IO
+[At time 556]
+   Q1: P15
+   Q2: P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17
+[556--565] CPU runs P15
+						[557] P41 arrives
+						[564] P2 completes IO
+						[565] P15 starts IO
+[At time 565]
+   Q1: P2
+   Q2: P47 P37 P7 P44 P10 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17
+[565--574] CPU runs P2
+						[571] P13 arrives
+						[573] P28 completes IO
+						[574] P2 starts IO
+[At time 574]
+   Q1:
+   Q2: P47 P37 P7 P44 P10 P41 P13 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17
+[574--582] CPU runs P47
+						[580] P26 completes IO
+						[581] P20 arrives
+						[582] P47 starts IO
+[At time 582]
+   Q1:
+   Q2: P37 P7 P44 P10 P41 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[582--587] CPU runs P37
+						[586] P9 completes IO
+						[587] P37 starts IO
+[At time 587]
+   Q1: P9
+   Q2: P7 P44 P10 P41 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[587--596] CPU runs P9
+						[589] P21 completes IO
+						[593] P48 completes IO
+						[596] P9 starts IO
+[At time 596]
+   Q1: P21 P48
+   Q2: P7 P44 P10 P41 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[596--601] CPU runs P21
+						[599] P34 completes IO
+						[601] P21 starts IO
+[At time 601]
+   Q1: P48 P34
+   Q2: P7 P44 P10 P41 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[601--607] CPU runs P48
+						[607] P48 starts IO
+[At time 607]
+   Q1: P34
+   Q2: P7 P44 P10 P41 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[607--614] CPU runs P34
+						[610] P16 completes IO
+						[614] P1 completes IO
+						[614] P34 starts IO
+[At time 614]
+   Q1: P16
+   Q2: P7 P44 P10 P41 P13 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[614--622] CPU runs P16
+						[622] P16 starts IO
+[At time 622]
+   Q1:
+   Q2: P7 P44 P10 P41 P13 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[622--631] CPU runs P7
+						[623] P15 completes IO
+						[631] P7 starts IO
+[At time 631]
+   Q1: P15
+   Q2: P44 P10 P41 P13 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[631--636] CPU runs P15
+						[634] P32 completes IO
+						[636] P15 starts IO
+[At time 636]
+   Q1: P32
+   Q2: P44 P10 P41 P13 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20
+[636--645] CPU runs P32
+						[640] P47 completes IO
+						[644] P14 arrives
+						[645] P32 starts IO
+[At time 645]
+   Q1:
+   Q2: P44 P10 P41 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14
+[645--653] CPU runs P44
+						[646] P5 arrives
+						[648] P2 completes IO
+						[653] P24 arrives
+						[653] P44 starts IO
+[At time 653]
+   Q1: P2 P24
+   Q2: P10 P41 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5
+[653--662] CPU runs P2
+						[654] P18 arrives
+						[655] P37 completes IO
+						[656] P43 completes IO
+						[662] P39 arrives
+						[662] P2 starts IO
+[At time 662]
+   Q1: P24 P43
+   Q2: P10 P41 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39
+[662--669] CPU runs P24
+						[669] P24 starts IO
+[At time 669]
+   Q1: P43
+   Q2: P10 P41 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39
+[669--678] CPU runs P43
+						[676] P21 completes IO
+						[678] P43 starts IO
+[At time 678]
+   Q1: P21
+   Q2: P10 P41 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39
+[678--686] CPU runs P21
+						[686] P21 starts IO
+[At time 686]
+   Q1:
+   Q2: P10 P41 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39
+[686--692] CPU runs P10
+						[689] P7 completes IO
+						[689] P9 completes IO
+						[692] P10 starts IO
+[At time 692]
+   Q1: P9
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39
+[692--702] CPU runs P9
+						[696] P27 arrives
+						[700] P48 completes IO
+						[702] P9 starts IO
+[At time 702]
+   Q1: P48
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[702--712] CPU runs P48
+						[704] P16 completes IO
+						[704] P34 completes IO
+						[712] P48 starts IO
+[At time 712]
+   Q1: P16 P34
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[712--721] CPU runs P16
+						[717] P2 completes IO
+						[717] P32 completes IO
+						[721] P16 starts IO
+[At time 721]
+   Q1: P34 P2 P32
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[721--726] CPU runs P34
+						[726] P34 starts IO
+[At time 726]
+   Q1: P2 P32
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[726--735] CPU runs P2
+						[728] P15 completes IO
+						[735] P2 starts IO
+[At time 735]
+   Q1: P32 P15
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[735--743] CPU runs P32
+						[741] P44 completes IO
+						[743] P32 starts IO
+[At time 743]
+   Q1: P15
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[743--748] CPU runs P15
+						[745] P21 completes IO
+						[748] P15 starts IO
+[At time 748]
+   Q1: P21
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27
+[748--758] CPU runs P21
+						[749] P43 completes IO
+						[750] P4 arrives
+						[750] P24 completes IO
+						[753] P10 completes IO
+						[758] P21 starts IO
+[At time 758]
+   Q1: P43 P24
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[758--765] CPU runs P43
+						[765] P43 starts IO
+[At time 765]
+   Q1: P24
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[765--771] CPU runs P24
+						[768] P6 arrives
+						[771] P24 starts IO
+[At time 771]
+   Q1: P6
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[771--778] CPU runs P6
+						[778] P6 starts IO
+[At time 778]
+   Q1:
+   Q2: P41 P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[778--785] CPU runs P41
+						[781] P9 completes IO
+						[784] P34 completes IO
+						[785] P41 starts IO
+[At time 785]
+   Q1: P9 P34
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[785--795] CPU runs P9
+						[793] P32 completes IO
+						[795] P9 starts IO
+[At time 795]
+   Q1: P34 P32
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[795--801] CPU runs P34
+						[801] P34 starts IO
+[At time 801]
+   Q1: P32
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[801--809] CPU runs P32
+						[803] P48 completes IO
+						[805] P16 completes IO
+						[809] P32 starts IO
+[At time 809]
+   Q1: P48 P16
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4
+[809--814] CPU runs P48
+						[812] P2 completes IO
+						[813] P11 arrives
+						[814] P48 starts IO
+[At time 814]
+   Q1: P16 P2
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11
+[814--821] CPU runs P16
+						[821] P16 starts IO
+[At time 821]
+   Q1: P2
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11
+[821--831] CPU runs P2
+						[823] P15 completes IO
+						[824] P36 arrives
+						[828] P21 completes IO
+						[831] P2 starts IO
+[At time 831]
+   Q1: P15 P21
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36
+[831--841] CPU runs P15
+						[835] P3 arrives
+						[838] P8 arrives
+						[841] P15 starts IO
+[At time 841]
+   Q1: P21
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3
+[841--846] CPU runs P21
+						[844] P24 completes IO
+						[845] P41 completes IO
+						[846] P21 starts IO
+[At time 846]
+   Q1: P24
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3
+[846--856] CPU runs P24
+						[854] P6 completes IO
+						[856] P24 starts IO
+[At time 856]
+   Q1: P6
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3
+[856--862] CPU runs P6
+						[858] P43 completes IO
+						[860] P42 arrives
+						[862] P6 starts IO
+[At time 862]
+   Q1: P43
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[862--872] CPU runs P43
+						[872] P9 completes IO
+						[872] P43 starts IO
+[At time 872]
+   Q1: P9
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[872--878] CPU runs P9
+						[873] P34 completes IO
+						[878] P9 starts IO
+[At time 878]
+   Q1: P34
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[878--886] CPU runs P34
+						[879] P32 completes IO
+						[880] P48 completes IO
+						[884] P16 completes IO
+						[886] P34 starts IO
+[At time 886]
+   Q1: P32 P48 P16
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[886--891] CPU runs P32
+						[891] P32 starts IO
+[At time 891]
+   Q1: P48 P16
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[891--896] CPU runs P48
+						[895] P30 arrives
+						[896] P25 arrives
+						[896] P48 starts IO
+[At time 896]
+   Q1: P16 P25
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[896--902] CPU runs P16
+						[902] P16 starts IO
+[At time 902]
+   Q1: P25
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[902--907] CPU runs P25
+						[906] P2 completes IO
+						[907] P25 starts IO
+[At time 907]
+   Q1: P2
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42
+[907--912] CPU runs P2
+						[911] P33 arrives
+						[912] P2 starts IO
+[At time 912]
+   Q1:
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33
+[912--921] CPU runs P13
+						[918] P24 completes IO
+						[921] P13 starts IO
+[At time 921]
+   Q1: P24
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33
+[921--929] CPU runs P24
+						[926] P23 arrives
+						[929] P24 starts IO
+[At time 929]
+   Q1:
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33
+[929--938] CPU runs P28
+						[938] P15 completes IO
+						[938] P21 completes IO
+						[938] P28 starts IO
+[At time 938]
+   Q1: P15 P21
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33
+[938--946] CPU runs P15
+						[945] P32 completes IO
+						[946] P50 arrives
+						[946] P15 starts IO
+[At time 946]
+   Q1: P21 P32
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50
+[946--955] CPU runs P21
+						[955] P16 completes IO
+						[955] P21 starts IO
+[At time 955]
+   Q1: P32 P16
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50
+[955--961] CPU runs P32
+						[961] P32 starts IO
+[At time 961]
+   Q1: P16
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50
+[961--971] CPU runs P16
+						[962] P6 completes IO
+						[963] P38 arrives
+						[963] P43 completes IO
+						[966] P2 completes IO
+						[969] P34 completes IO
+						[971] P16 starts IO
+[At time 971]
+   Q1: P6 P43 P2 P34
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[971--976] CPU runs P6
+						[973] P9 completes IO
+						[976] P13 completes IO
+						[976] P6 starts IO
+[At time 976]
+   Q1: P43 P2 P34 P9
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[976--985] CPU runs P43
+						[985] P43 starts IO
+[At time 985]
+   Q1: P2 P34 P9
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[985--993] CPU runs P2
+						[990] P25 completes IO
+						[990] P48 completes IO
+						[993] P2 starts IO
+[At time 993]
+   Q1: P34 P9 P25 P48
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[993--999] CPU runs P34
+						[994] P45 arrives
+						[994] P24 completes IO
+						[999] P34 starts IO
+[At time 999]
+   Q1: P9 P25 P48 P24
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[999--1006] CPU runs P9
+						[1006] P9 starts IO
+[At time 1006]
+   Q1: P25 P48 P24
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1006--1013] CPU runs P25
+						[1013] P25 starts IO
+[At time 1013]
+   Q1: P48 P24
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1013--1018] CPU runs P48
+						[1015] P28 completes IO
+						[1018] P48 starts IO
+[At time 1018]
+   Q1: P24
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1018--1025] CPU runs P24
+						[1025] P24 starts IO
+[At time 1025]
+   Q1:
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1025--1030] CPU runs P26
+						[1030] P26 starts IO
+[At time 1030]
+   Q1:
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1030--1039] CPU runs P1
+						[1035] P15 completes IO
+						[1036] P16 completes IO
+						[1039] P1 starts IO
+[At time 1039]
+   Q1: P15 P16
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1039--1045] CPU runs P15
+						[1040] P21 completes IO
+						[1045] P15 starts IO
+[At time 1045]
+   Q1: P16 P21
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1045--1053] CPU runs P16
+						[1053] P16 starts IO
+[At time 1053]
+   Q1: P21
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1053--1060] CPU runs P21
+						[1054] P32 completes IO
+						[1060] P21 starts IO
+[At time 1060]
+   Q1: P32
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1060--1068] CPU runs P32
+						[1068] P32 starts IO
+[At time 1068]
+   Q1:
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1068--1074] CPU runs P47
+						[1072] P43 completes IO
+						[1074] P47 starts IO
+[At time 1074]
+   Q1: P43
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1074--1081] CPU runs P43
+						[1076] P6 completes IO
+						[1081] P2 completes IO
+						[1081] P43 starts IO
+[At time 1081]
+   Q1: P6 P2
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1081--1090] CPU runs P6
+						[1083] P9 completes IO
+						[1086] P26 completes IO
+						[1089] P25 completes IO
+						[1090] P1 completes IO
+						[1090] P6 starts IO
+[At time 1090]
+   Q1: P2 P9 P25
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1090--1099] CPU runs P2
+						[1098] P15 completes IO
+						[1099] P24 completes IO
+						[1099] P34 completes IO
+						[1099] P2 starts IO
+[At time 1099]
+   Q1: P9 P25 P15 P24 P34
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1099--1108] CPU runs P9
+						[1100] P48 completes IO
+						[1108] P9 starts IO
+[At time 1108]
+   Q1: P25 P15 P24 P34 P48
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1108--1113] CPU runs P25
+						[1112] P16 completes IO
+						[1113] P25 starts IO
+[At time 1113]
+   Q1: P15 P24 P34 P48 P16
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1113--1123] CPU runs P15
+						[1123] P15 starts IO
+[At time 1123]
+   Q1: P24 P34 P48 P16
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1123--1133] CPU runs P24
+						[1133] P24 starts IO
+[At time 1133]
+   Q1: P34 P48 P16
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1133--1142] CPU runs P34
+						[1140] P47 completes IO
+						[1141] P43 completes IO
+						[1142] P34 starts IO
+[At time 1142]
+   Q1: P48 P16 P43
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1142--1150] CPU runs P48
+						[1144] P32 completes IO
+						[1150] P48 terminates
+[At time 1150]
+   Q1: P16 P43 P32
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1150--1160] CPU runs P16
+						[1152] P21 completes IO
+						[1160] P16 starts IO
+[At time 1160]
+   Q1: P43 P32 P21
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1160--1168] CPU runs P43
+						[1165] P6 completes IO
+						[1168] P43 starts IO
+[At time 1168]
+   Q1: P32 P21 P6
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1168--1174] CPU runs P32
+						[1170] P2 completes IO
+						[1174] P32 starts IO
+[At time 1174]
+   Q1: P21 P6 P2
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1174--1181] CPU runs P21
+						[1175] P15 completes IO
+						[1181] P21 starts IO
+[At time 1181]
+   Q1: P6 P2 P15
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1181--1187] CPU runs P6
+						[1187] P6 starts IO
+[At time 1187]
+   Q1: P2 P15
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1187--1192] CPU runs P2
+						[1192] P2 starts IO
+[At time 1192]
+   Q1: P15
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1192--1199] CPU runs P15
+						[1199] P15 starts IO
+[At time 1199]
+   Q1:
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1199--1209] CPU runs P37
+						[1202] P25 completes IO
+						[1203] P34 completes IO
+						[1205] P9 completes IO
+						[1209] P37 starts IO
+[At time 1209]
+   Q1: P25 P34 P9
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1209--1215] CPU runs P25
+						[1215] P25 starts IO
+[At time 1215]
+   Q1: P34 P9
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1215--1224] CPU runs P34
+						[1221] P24 completes IO
+						[1224] P34 starts IO
+[At time 1224]
+   Q1: P9 P24
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1224--1232] CPU runs P9
+						[1232] P9 starts IO
+[At time 1232]
+   Q1: P24
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1232--1242] CPU runs P24
+						[1239] P6 completes IO
+						[1240] P21 completes IO
+						[1242] P24 starts IO
+[At time 1242]
+   Q1: P6 P21
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1242--1252] CPU runs P6
+						[1250] P16 completes IO
+						[1252] P6 starts IO
+[At time 1252]
+   Q1: P21 P16
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1252--1262] CPU runs P21
+						[1256] P15 completes IO
+						[1260] P37 completes IO
+						[1262] P21 starts IO
+[At time 1262]
+   Q1: P16 P15
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1262--1269] CPU runs P16
+						[1263] P43 completes IO
+						[1265] P2 completes IO
+						[1269] P16 starts IO
+[At time 1269]
+   Q1: P15 P43 P2
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1269--1276] CPU runs P15
+						[1271] P32 completes IO
+						[1274] P34 completes IO
+						[1276] P15 starts IO
+[At time 1276]
+   Q1: P43 P2 P32 P34
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1276--1285] CPU runs P43
+						[1285] P43 starts IO
+[At time 1285]
+   Q1: P2 P32 P34
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1285--1291] CPU runs P2
+						[1291] P2 starts IO
+[At time 1291]
+   Q1: P32 P34
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1291--1298] CPU runs P32
+						[1298] P32 starts IO
+[At time 1298]
+   Q1: P34
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1298--1304] CPU runs P34
+						[1301] P24 completes IO
+						[1304] P34 starts IO
+[At time 1304]
+   Q1: P24
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1304--1309] CPU runs P24
+						[1307] P25 completes IO
+						[1307] P6 completes IO
+						[1309] P24 starts IO
+[At time 1309]
+   Q1: P25 P6
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1309--1316] CPU runs P25
+						[1316] P25 starts IO
+[At time 1316]
+   Q1: P6
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1316--1326] CPU runs P6
+						[1320] P9 completes IO
+						[1326] P6 starts IO
+[At time 1326]
+   Q1: P9
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1326--1333] CPU runs P9
+						[1333] P21 completes IO
+						[1333] P9 starts IO
+[At time 1333]
+   Q1: P21
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1333--1343] CPU runs P21
+						[1343] P21 starts IO
+[At time 1343]
+   Q1:
+   Q2: P7 P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1343--1352] CPU runs P7
+						[1345] P16 completes IO
+						[1352] P7 starts IO
+[At time 1352]
+   Q1: P16
+   Q2: P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1352--1357] CPU runs P16
+						[1357] P16 starts IO
+[At time 1357]
+   Q1:
+   Q2: P44 P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1357--1367] CPU runs P44
+						[1359] P43 completes IO
+						[1367] P44 starts IO
+[At time 1367]
+   Q1: P43
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1367--1377] CPU runs P43
+						[1369] P15 completes IO
+						[1373] P34 completes IO
+						[1375] P32 completes IO
+						[1377] P43 starts IO
+[At time 1377]
+   Q1: P15 P34 P32
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1377--1385] CPU runs P15
+						[1382] P24 completes IO
+						[1383] P25 completes IO
+						[1385] P2 completes IO
+						[1385] P15 starts IO
+[At time 1385]
+   Q1: P34 P32 P24 P25 P2
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1385--1390] CPU runs P34
+						[1390] P34 starts IO
+[At time 1390]
+   Q1: P32 P24 P25 P2
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1390--1400] CPU runs P32
+						[1400] P32 starts IO
+[At time 1400]
+   Q1: P24 P25 P2
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1400--1410] CPU runs P24
+						[1401] P6 completes IO
+						[1407] P9 completes IO
+						[1410] P24 starts IO
+[At time 1410]
+   Q1: P25 P2 P6 P9
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1410--1415] CPU runs P25
+						[1415] P25 starts IO
+[At time 1415]
+   Q1: P2 P6 P9
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1415--1421] CPU runs P2
+						[1421] P2 starts IO
+[At time 1421]
+   Q1: P6 P9
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1421--1426] CPU runs P6
+						[1426] P6 starts IO
+[At time 1426]
+   Q1: P9
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1426--1435] CPU runs P9
+						[1427] P7 completes IO
+						[1428] P44 completes IO
+						[1435] P21 completes IO
+						[1435] P9 starts IO
+[At time 1435]
+   Q1: P21
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1435--1443] CPU runs P21
+						[1443] P21 starts IO
+[At time 1443]
+   Q1:
+   Q2: P10 P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1443--1450] CPU runs P10
+						[1444] P16 completes IO
+						[1450] P10 starts IO
+[At time 1450]
+   Q1: P16
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1450--1457] CPU runs P16
+						[1451] P15 completes IO
+						[1456] P34 completes IO
+						[1457] P16 terminates
+[At time 1457]
+   Q1: P15 P34
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1457--1467] CPU runs P15
+						[1467] P15 starts IO
+[At time 1467]
+   Q1: P34
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1467--1475] CPU runs P34
+						[1473] P43 completes IO
+						[1475] P34 starts IO
+[At time 1475]
+   Q1: P43
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1475--1482] CPU runs P43
+						[1479] P6 completes IO
+						[1481] P25 completes IO
+						[1481] P32 completes IO
+						[1482] P43 starts IO
+[At time 1482]
+   Q1: P6 P25 P32
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1482--1487] CPU runs P6
+						[1486] P2 completes IO
+						[1487] P6 starts IO
+[At time 1487]
+   Q1: P25 P32 P2
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1487--1492] CPU runs P25
+						[1489] P24 completes IO
+						[1492] P25 starts IO
+[At time 1492]
+   Q1: P32 P2 P24
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1492--1498] CPU runs P32
+						[1498] P32 starts IO
+[At time 1498]
+   Q1: P2 P24
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1498--1505] CPU runs P2
+						[1505] P2 starts IO
+[At time 1505]
+   Q1: P24
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1505--1514] CPU runs P24
+						[1514] P24 starts IO
+[At time 1514]
+   Q1:
+   Q2: P8 P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1514--1521] CPU runs P8
+						[1521] P8 starts IO
+[At time 1521]
+   Q1:
+   Q2: P41 P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1521--1527] CPU runs P41
+						[1527] P9 completes IO
+						[1527] P41 starts IO
+[At time 1527]
+   Q1: P9
+   Q2: P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1527--1534] CPU runs P9
+						[1534] P34 completes IO
+						[1534] P9 starts IO
+[At time 1534]
+   Q1: P34
+   Q2: P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1534--1541] CPU runs P34
+						[1535] P21 completes IO
+						[1538] P10 completes IO
+						[1541] P34 starts IO
+[At time 1541]
+   Q1: P21
+   Q2: P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1541--1550] CPU runs P21
+						[1550] P21 terminates
+[At time 1550]
+   Q1:
+   Q2: P30 P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1550--1557] CPU runs P30
+						[1552] P6 completes IO
+						[1557] P30 starts IO
+[At time 1557]
+   Q1: P6
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1557--1566] CPU runs P6
+						[1563] P15 completes IO
+						[1566] P6 starts IO
+[At time 1566]
+   Q1: P15
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1566--1576] CPU runs P15
+						[1567] P2 completes IO
+						[1570] P43 completes IO
+						[1576] P15 starts IO
+[At time 1576]
+   Q1: P2 P43
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1576--1582] CPU runs P2
+						[1577] P25 completes IO
+						[1578] P8 completes IO
+						[1579] P32 completes IO
+						[1582] P2 terminates
+[At time 1582]
+   Q1: P43 P25 P32
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1582--1591] CPU runs P43
+						[1591] P43 starts IO
+[At time 1591]
+   Q1: P25 P32
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1591--1596] CPU runs P25
+						[1596] P25 starts IO
+[At time 1596]
+   Q1: P32
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1596--1606] CPU runs P32
+						[1603] P24 completes IO
+						[1606] P32 starts IO
+[At time 1606]
+   Q1: P24
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1606--1616] CPU runs P24
+						[1615] P34 completes IO
+						[1615] P41 completes IO
+						[1616] P6 completes IO
+						[1616] P24 starts IO
+[At time 1616]
+   Q1: P34 P6
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1616--1626] CPU runs P34
+						[1624] P9 completes IO
+						[1626] P34 starts IO
+[At time 1626]
+   Q1: P6 P9
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1626--1631] CPU runs P6
+						[1631] P6 starts IO
+[At time 1631]
+   Q1: P9
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1631--1641] CPU runs P9
+						[1641] P9 starts IO
+[At time 1641]
+   Q1:
+   Q2: P23 P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1641--1651] CPU runs P23
+						[1649] P30 completes IO
+						[1651] P23 starts IO
+[At time 1651]
+   Q1:
+   Q2: P13 P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1651--1657] CPU runs P13
+						[1657] P13 starts IO
+[At time 1657]
+   Q1:
+   Q2: P45 P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1657--1663] CPU runs P45
+						[1658] P25 completes IO
+						[1663] P15 completes IO
+						[1663] P43 completes IO
+						[1663] P45 starts IO
+[At time 1663]
+   Q1: P25 P15 P43
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1663--1671] CPU runs P25
+						[1671] P25 starts IO
+[At time 1671]
+   Q1: P15 P43
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1671--1679] CPU runs P15
+						[1679] P15 starts IO
+[At time 1679]
+   Q1: P43
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1679--1687] CPU runs P43
+						[1687] P43 starts IO
+[At time 1687]
+   Q1:
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1687--1694] CPU runs P28
+						[1694] P28 starts IO
+[At time 1694]
+   Q1:
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1694--1704] CPU runs P26
+						[1698] P32 completes IO
+						[1700] P34 completes IO
+						[1700] P9 completes IO
+						[1702] P24 completes IO
+						[1704] P26 starts IO
+[At time 1704]
+   Q1: P32 P34 P9 P24
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1704--1712] CPU runs P32
+						[1712] P32 starts IO
+[At time 1712]
+   Q1: P34 P9 P24
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1712--1719] CPU runs P34
+						[1719] P34 terminates
+[At time 1719]
+   Q1: P9 P24
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1719--1727] CPU runs P9
+						[1727] P9 starts IO
+[At time 1727]
+   Q1: P24
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1727--1737] CPU runs P24
+						[1728] P6 completes IO
+						[1733] P25 completes IO
+						[1736] P23 completes IO
+						[1737] P24 starts IO
+[At time 1737]
+   Q1: P6 P25
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1737--1743] CPU runs P6
+						[1743] P45 completes IO
+						[1743] P6 starts IO
+[At time 1743]
+   Q1: P25
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1743--1749] CPU runs P25
+						[1749] P25 starts IO
+[At time 1749]
+   Q1:
+   Q2: P1 P47 P37 P7 P44 P10 P8 P41 P30 P23 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1749--1756] CPU runs P1
+						[1752] P13 completes IO
+						[1756] P1 starts IO
+[At time 1756]
+   Q1:
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30 P23 P45 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1756--1765] CPU runs P47
+						[1759] P15 completes IO
+						[1765] P47 starts IO
+[At time 1765]
+   Q1: P15
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P45 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1765--1773] CPU runs P15
+						[1772] P43 completes IO
+						[1773] P15 starts IO
+[At time 1773]
+   Q1: P43
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P45 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1773--1783] CPU runs P43
+						[1779] P9 completes IO
+						[1781] P28 completes IO
+						[1783] P43 starts IO
+[At time 1783]
+   Q1: P9
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P45 P13 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1783--1791] CPU runs P9
+						[1788] P32 completes IO
+						[1789] P26 completes IO
+						[1791] P9 starts IO
+[At time 1791]
+   Q1: P32
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P45 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1791--1798] CPU runs P32
+						[1798] P32 starts IO
+[At time 1798]
+   Q1:
+   Q2: P37 P7 P44 P10 P8 P41 P30 P23 P45 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1798--1805] CPU runs P37
+						[1805] P37 starts IO
+[At time 1805]
+   Q1:
+   Q2: P7 P44 P10 P8 P41 P30 P23 P45 P13 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1805--1814] CPU runs P7
+						[1807] P24 completes IO
+						[1808] P25 completes IO
+						[1812] P1 completes IO
+						[1814] P7 starts IO
+[At time 1814]
+   Q1: P24 P25
+   Q2: P44 P10 P8 P41 P30 P23 P45 P13 P28 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1814--1819] CPU runs P24
+						[1817] P47 completes IO
+						[1819] P24 starts IO
+[At time 1819]
+   Q1: P25
+   Q2: P44 P10 P8 P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1819--1824] CPU runs P25
+						[1824] P25 starts IO
+[At time 1824]
+   Q1:
+   Q2: P44 P10 P8 P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1824--1833] CPU runs P44
+						[1833] P44 starts IO
+[At time 1833]
+   Q1:
+   Q2: P10 P8 P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1833--1842] CPU runs P10
+						[1839] P6 completes IO
+						[1842] P10 starts IO
+[At time 1842]
+   Q1: P6
+   Q2: P8 P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1842--1852] CPU runs P6
+						[1852] P6 starts IO
+[At time 1852]
+   Q1:
+   Q2: P8 P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1852--1859] CPU runs P8
+						[1857] P15 completes IO
+						[1859] P8 starts IO
+[At time 1859]
+   Q1: P15
+   Q2: P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1859--1869] CPU runs P15
+						[1869] P15 terminates
+[At time 1869]
+   Q1:
+   Q2: P41 P30 P23 P45 P13 P28 P26 P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1869--1875] CPU runs P41
+						[1874] P37 completes IO
+						[1875] P41 starts IO
+[At time 1875]
+   Q1:
+   Q2: P30 P23 P45 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1875--1883] CPU runs P30
+						[1878] P9 completes IO
+						[1881] P43 completes IO
+						[1883] P30 starts IO
+[At time 1883]
+   Q1: P9 P43
+   Q2: P23 P45 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1883--1890] CPU runs P9
+						[1888] P32 completes IO
+						[1890] P9 starts IO
+[At time 1890]
+   Q1: P43 P32
+   Q2: P23 P45 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1890--1900] CPU runs P43
+						[1894] P24 completes IO
+						[1900] P43 starts IO
+[At time 1900]
+   Q1: P32 P24
+   Q2: P23 P45 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1900--1905] CPU runs P32
+						[1905] P32 starts IO
+[At time 1905]
+   Q1: P24
+   Q2: P23 P45 P13 P28 P26 P1 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1905--1912] CPU runs P24
+						[1907] P7 completes IO
+						[1912] P24 starts IO
+[At time 1912]
+   Q1:
+   Q2: P23 P45 P13 P28 P26 P1 P47 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1912--1919] CPU runs P23
+						[1914] P6 completes IO
+						[1915] P44 completes IO
+						[1918] P10 completes IO
+						[1919] P25 completes IO
+						[1919] P23 starts IO
+[At time 1919]
+   Q1: P6 P25
+   Q2: P45 P13 P28 P26 P1 P47 P37 P7 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1919--1927] CPU runs P6
+						[1921] P8 completes IO
+						[1927] P6 starts IO
+[At time 1927]
+   Q1: P25
+   Q2: P45 P13 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1927--1934] CPU runs P25
+						[1934] P25 starts IO
+[At time 1934]
+   Q1:
+   Q2: P45 P13 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1934--1944] CPU runs P45
+						[1944] P45 starts IO
+[At time 1944]
+   Q1:
+   Q2: P13 P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1944--1951] CPU runs P13
+						[1950] P9 completes IO
+						[1951] P13 starts IO
+[At time 1951]
+   Q1: P9
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1951--1959] CPU runs P9
+						[1959] P9 starts IO
+[At time 1959]
+   Q1:
+   Q2: P28 P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1959--1965] CPU runs P28
+						[1965] P28 starts IO
+[At time 1965]
+   Q1:
+   Q2: P26 P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1965--1972] CPU runs P26
+						[1972] P26 starts IO
+[At time 1972]
+   Q1:
+   Q2: P1 P47 P37 P7 P44 P10 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1972--1979] CPU runs P1
+						[1974] P41 completes IO
+						[1976] P24 completes IO
+						[1976] P30 completes IO
+						[1979] P1 starts IO
+[At time 1979]
+   Q1: P24
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1979--1989] CPU runs P24
+						[1989] P24 terminates
+[At time 1989]
+   Q1:
+   Q2: P47 P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1989--1995] CPU runs P47
+						[1990] P32 completes IO
+						[1992] P43 completes IO
+						[1995] P47 starts IO
+[At time 1995]
+   Q1: P32 P43
+   Q2: P37 P7 P44 P10 P8 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[1995--2004] CPU runs P32
+						[1996] P45 completes IO
+						[2000] P6 completes IO
+						[2004] P32 terminates
+[At time 2004]
+   Q1: P43 P6
+   Q2: P37 P7 P44 P10 P8 P41 P30 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2004--2013] CPU runs P43
+						[2013] P43 starts IO
+[At time 2013]
+   Q1: P6
+   Q2: P37 P7 P44 P10 P8 P41 P30 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2013--2019] CPU runs P6
+						[2016] P23 completes IO
+						[2019] P13 completes IO
+						[2019] P6 starts IO
+[At time 2019]
+   Q1:
+   Q2: P37 P7 P44 P10 P8 P41 P30 P45 P23 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2019--2027] CPU runs P37
+						[2025] P25 completes IO
+						[2025] P9 completes IO
+						[2027] P37 starts IO
+[At time 2027]
+   Q1: P25 P9
+   Q2: P7 P44 P10 P8 P41 P30 P45 P23 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2027--2032] CPU runs P25
+						[2032] P1 completes IO
+						[2032] P28 completes IO
+						[2032] P25 starts IO
+[At time 2032]
+   Q1: P9
+   Q2: P7 P44 P10 P8 P41 P30 P45 P23 P13 P1 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2032--2039] CPU runs P9
+						[2039] P9 terminates
+[At time 2039]
+   Q1:
+   Q2: P7 P44 P10 P8 P41 P30 P45 P23 P13 P1 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2039--2049] CPU runs P7
+						[2049] P7 starts IO
+[At time 2049]
+   Q1:
+   Q2: P44 P10 P8 P41 P30 P45 P23 P13 P1 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2049--2054] CPU runs P44
+						[2054] P44 starts IO
+[At time 2054]
+   Q1:
+   Q2: P10 P8 P41 P30 P45 P23 P13 P1 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2054--2061] CPU runs P10
+						[2060] P26 completes IO
+						[2061] P10 starts IO
+[At time 2061]
+   Q1:
+   Q2: P8 P41 P30 P45 P23 P13 P1 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2061--2066] CPU runs P8
+						[2066] P8 starts IO
+[At time 2066]
+   Q1:
+   Q2: P41 P30 P45 P23 P13 P1 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2066--2075] CPU runs P41
+						[2075] P41 starts IO
+[At time 2075]
+   Q1:
+   Q2: P30 P45 P23 P13 P1 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2075--2082] CPU runs P30
+						[2082] P30 starts IO
+[At time 2082]
+   Q1:
+   Q2: P45 P23 P13 P1 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2082--2087] CPU runs P45
+						[2087] P45 starts IO
+[At time 2087]
+   Q1:
+   Q2: P23 P13 P1 P28 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2087--2094] CPU runs P23
+						[2092] P6 completes IO
+						[2093] P47 completes IO
+						[2094] P23 starts IO
+[At time 2094]
+   Q1: P6
+   Q2: P13 P1 P28 P26 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2094--2101] CPU runs P6
+						[2101] P37 completes IO
+						[2101] P6 starts IO
+[At time 2101]
+   Q1:
+   Q2: P13 P1 P28 P26 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2101--2110] CPU runs P13
+						[2107] P43 completes IO
+						[2110] P13 starts IO
+[At time 2110]
+   Q1: P43
+   Q2: P1 P28 P26 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2110--2116] CPU runs P43
+						[2114] P25 completes IO
+						[2116] P43 terminates
+[At time 2116]
+   Q1: P25
+   Q2: P1 P28 P26 P47 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2116--2125] CPU runs P25
+						[2119] P44 completes IO
+						[2125] P10 completes IO
+						[2125] P25 starts IO
+[At time 2125]
+   Q1:
+   Q2: P1 P28 P26 P47 P37 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2125--2134] CPU runs P1
+						[2134] P1 starts IO
+[At time 2134]
+   Q1:
+   Q2: P28 P26 P47 P37 P44 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2134--2142] CPU runs P28
+						[2138] P7 completes IO
+						[2142] P28 starts IO
+[At time 2142]
+   Q1:
+   Q2: P26 P47 P37 P44 P10 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2142--2151] CPU runs P26
+						[2149] P41 completes IO
+						[2151] P26 starts IO
+[At time 2151]
+   Q1:
+   Q2: P47 P37 P44 P10 P7 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2151--2159] CPU runs P47
+						[2155] P45 completes IO
+						[2156] P8 completes IO
+						[2157] P23 completes IO
+						[2159] P47 starts IO
+[At time 2159]
+   Q1:
+   Q2: P37 P44 P10 P7 P41 P45 P8 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2159--2168] CPU runs P37
+						[2162] P30 completes IO
+						[2165] P6 completes IO
+						[2168] P37 starts IO
+[At time 2168]
+   Q1: P6
+   Q2: P44 P10 P7 P41 P45 P8 P23 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2168--2176] CPU runs P6
+						[2171] P13 completes IO
+						[2176] P6 starts IO
+[At time 2176]
+   Q1:
+   Q2: P44 P10 P7 P41 P45 P8 P23 P30 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2176--2181] CPU runs P44
+						[2181] P44 starts IO
+[At time 2181]
+   Q1:
+   Q2: P10 P7 P41 P45 P8 P23 P30 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2181--2190] CPU runs P10
+						[2187] P25 completes IO
+						[2190] P10 starts IO
+[At time 2190]
+   Q1: P25
+   Q2: P7 P41 P45 P8 P23 P30 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2190--2196] CPU runs P25
+						[2196] P25 starts IO
+[At time 2196]
+   Q1:
+   Q2: P7 P41 P45 P8 P23 P30 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2196--2204] CPU runs P7
+						[2204] P7 starts IO
+[At time 2204]
+   Q1:
+   Q2: P41 P45 P8 P23 P30 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2204--2211] CPU runs P41
+						[2208] P26 completes IO
+						[2211] P41 starts IO
+[At time 2211]
+   Q1:
+   Q2: P45 P8 P23 P30 P13 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2211--2221] CPU runs P45
+						[2213] P28 completes IO
+						[2213] P47 completes IO
+						[2220] P1 completes IO
+						[2221] P45 starts IO
+[At time 2221]
+   Q1:
+   Q2: P8 P23 P30 P13 P26 P28 P47 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2221--2230] CPU runs P8
+						[2230] P8 starts IO
+[At time 2230]
+   Q1:
+   Q2: P23 P30 P13 P26 P28 P47 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2230--2239] CPU runs P23
+						[2239] P23 starts IO
+[At time 2239]
+   Q1:
+   Q2: P30 P13 P26 P28 P47 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2239--2249] CPU runs P30
+						[2247] P6 completes IO
+						[2248] P37 completes IO
+						[2249] P30 starts IO
+[At time 2249]
+   Q1: P6
+   Q2: P13 P26 P28 P47 P1 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2249--2255] CPU runs P6
+						[2255] P6 starts IO
+[At time 2255]
+   Q1:
+   Q2: P13 P26 P28 P47 P1 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2255--2263] CPU runs P13
+						[2257] P10 completes IO
+						[2260] P44 completes IO
+						[2263] P13 starts IO
+[At time 2263]
+   Q1:
+   Q2: P26 P28 P47 P1 P37 P10 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2263--2270] CPU runs P26
+						[2270] P7 completes IO
+						[2270] P26 starts IO
+[At time 2270]
+   Q1:
+   Q2: P28 P47 P1 P37 P10 P44 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2270--2275] CPU runs P28
+						[2271] P25 completes IO
+						[2275] P28 starts IO
+[At time 2275]
+   Q1: P25
+   Q2: P47 P1 P37 P10 P44 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2275--2285] CPU runs P25
+						[2285] P25 terminates
+[At time 2285]
+   Q1:
+   Q2: P47 P1 P37 P10 P44 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2285--2292] CPU runs P47
+						[2289] P8 completes IO
+						[2290] P45 completes IO
+						[2292] P47 starts IO
+[At time 2292]
+   Q1:
+   Q2: P1 P37 P10 P44 P7 P8 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2292--2301] CPU runs P1
+						[2297] P23 completes IO
+						[2299] P41 completes IO
+						[2301] P1 starts IO
+[At time 2301]
+   Q1:
+   Q2: P37 P10 P44 P7 P8 P45 P23 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2301--2308] CPU runs P37
+						[2304] P30 completes IO
+						[2308] P37 starts IO
+[At time 2308]
+   Q1:
+   Q2: P10 P44 P7 P8 P45 P23 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2308--2314] CPU runs P10
+						[2314] P10 starts IO
+[At time 2314]
+   Q1:
+   Q2: P44 P7 P8 P45 P23 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2314--2320] CPU runs P44
+						[2320] P44 starts IO
+[At time 2320]
+   Q1:
+   Q2: P7 P8 P45 P23 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2320--2329] CPU runs P7
+						[2329] P7 starts IO
+[At time 2329]
+   Q1:
+   Q2: P8 P45 P23 P41 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2329--2336] CPU runs P8
+						[2331] P28 completes IO
+						[2336] P8 starts IO
+[At time 2336]
+   Q1:
+   Q2: P45 P23 P41 P30 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2336--2343] CPU runs P45
+						[2343] P45 starts IO
+[At time 2343]
+   Q1:
+   Q2: P23 P41 P30 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2343--2352] CPU runs P23
+						[2346] P13 completes IO
+						[2352] P23 starts IO
+[At time 2352]
+   Q1:
+   Q2: P41 P30 P28 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2352--2359] CPU runs P41
+						[2353] P6 completes IO
+						[2354] P26 completes IO
+						[2359] P41 starts IO
+[At time 2359]
+   Q1: P6
+   Q2: P30 P28 P13 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2359--2364] CPU runs P6
+						[2364] P6 starts IO
+[At time 2364]
+   Q1:
+   Q2: P30 P28 P13 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2364--2371] CPU runs P30
+						[2365] P1 completes IO
+						[2371] P30 starts IO
+[At time 2371]
+   Q1:
+   Q2: P28 P13 P26 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2371--2381] CPU runs P28
+						[2376] P37 completes IO
+						[2381] P28 starts IO
+[At time 2381]
+   Q1:
+   Q2: P13 P26 P1 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2381--2388] CPU runs P13
+						[2388] P13 starts IO
+[At time 2388]
+   Q1:
+   Q2: P26 P1 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2388--2394] CPU runs P26
+						[2390] P44 completes IO
+						[2391] P47 completes IO
+						[2394] P26 starts IO
+[At time 2394]
+   Q1:
+   Q2: P1 P37 P44 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2394--2400] CPU runs P1
+						[2400] P1 starts IO
+[At time 2400]
+   Q1:
+   Q2: P37 P44 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2400--2405] CPU runs P37
+						[2401] P10 completes IO
+						[2405] P37 starts IO
+[At time 2405]
+   Q1:
+   Q2: P44 P47 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2405--2414] CPU runs P44
+						[2414] P44 starts IO
+[At time 2414]
+   Q1:
+   Q2: P47 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2414--2419] CPU runs P47
+						[2418] P6 completes IO
+						[2419] P47 starts IO
+[At time 2419]
+   Q1: P6
+   Q2: P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2419--2429] CPU runs P6
+						[2422] P8 completes IO
+						[2423] P23 completes IO
+						[2427] P7 completes IO
+						[2429] P6 starts IO
+[At time 2429]
+   Q1:
+   Q2: P10 P8 P23 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2429--2435] CPU runs P10
+						[2433] P28 completes IO
+						[2435] P30 completes IO
+						[2435] P10 starts IO
+[At time 2435]
+   Q1:
+   Q2: P8 P23 P7 P28 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2435--2443] CPU runs P8
+						[2438] P45 completes IO
+						[2443] P8 starts IO
+[At time 2443]
+   Q1:
+   Q2: P23 P7 P28 P30 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2443--2451] CPU runs P23
+						[2451] P23 starts IO
+[At time 2451]
+   Q1:
+   Q2: P7 P28 P30 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2451--2459] CPU runs P7
+						[2457] P37 completes IO
+						[2459] P41 completes IO
+						[2459] P7 starts IO
+[At time 2459]
+   Q1:
+   Q2: P28 P30 P45 P37 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2459--2467] CPU runs P28
+						[2467] P28 starts IO
+[At time 2467]
+   Q1:
+   Q2: P30 P45 P37 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2467--2475] CPU runs P30
+						[2475] P30 starts IO
+[At time 2475]
+   Q1:
+   Q2: P45 P37 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2475--2481] CPU runs P45
+						[2478] P1 completes IO
+						[2480] P13 completes IO
+						[2481] P45 starts IO
+[At time 2481]
+   Q1:
+   Q2: P37 P41 P1 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2481--2488] CPU runs P37
+						[2482] P26 completes IO
+						[2488] P37 starts IO
+[At time 2488]
+   Q1:
+   Q2: P41 P1 P13 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2488--2496] CPU runs P41
+						[2496] P41 starts IO
+[At time 2496]
+   Q1:
+   Q2: P1 P13 P26
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2496--2503] CPU runs P1
+						[2503] P47 completes IO
+						[2503] P1 starts IO
+[At time 2503]
+   Q1:
+   Q2: P13 P26 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2503--2508] CPU runs P13
+						[2506] P23 completes IO
+						[2506] P44 completes IO
+						[2508] P13 starts IO
+[At time 2508]
+   Q1:
+   Q2: P26 P47 P23 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2508--2517] CPU runs P26
+						[2510] P6 completes IO
+						[2513] P8 completes IO
+						[2517] P26 terminates
+[At time 2517]
+   Q1: P6
+   Q2: P47 P23 P44 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2517--2527] CPU runs P6
+						[2527] P10 completes IO
+						[2527] P6 terminates
+[At time 2527]
+   Q1:
+   Q2: P47 P23 P44 P8 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2527--2532] CPU runs P47
+						[2532] P47 starts IO
+[At time 2532]
+   Q1:
+   Q2: P23 P44 P8 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2532--2538] CPU runs P23
+						[2534] P30 completes IO
+						[2538] P23 starts IO
+[At time 2538]
+   Q1:
+   Q2: P44 P8 P10 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2538--2546] CPU runs P44
+						[2542] P28 completes IO
+						[2543] P37 completes IO
+						[2546] P44 starts IO
+[At time 2546]
+   Q1:
+   Q2: P8 P10 P30 P28 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2546--2556] CPU runs P8
+						[2554] P7 completes IO
+						[2556] P8 starts IO
+[At time 2556]
+   Q1:
+   Q2: P10 P30 P28 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2556--2563] CPU runs P10
+						[2563] P10 starts IO
+[At time 2563]
+   Q1:
+   Q2: P30 P28 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2563--2572] CPU runs P30
+						[2571] P45 completes IO
+						[2572] P30 starts IO
+[At time 2572]
+   Q1:
+   Q2: P28 P37 P7 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2572--2582] CPU runs P28
+						[2575] P41 completes IO
+						[2582] P28 starts IO
+[At time 2582]
+   Q1:
+   Q2: P37 P7 P45 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2582--2590] CPU runs P37
+						[2584] P1 completes IO
+						[2590] P37 starts IO
+[At time 2590]
+   Q1:
+   Q2: P7 P45 P41 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2590--2595] CPU runs P7
+						[2595] P7 starts IO
+[At time 2595]
+   Q1:
+   Q2: P45 P41 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2595--2601] CPU runs P45
+						[2601] P45 starts IO
+[At time 2601]
+   Q1:
+   Q2: P41 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2601--2608] CPU runs P41
+						[2602] P13 completes IO
+						[2608] P41 starts IO
+[At time 2608]
+   Q1:
+   Q2: P1 P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2608--2617] CPU runs P1
+						[2617] P1 starts IO
+[At time 2617]
+   Q1:
+   Q2: P13
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2617--2626] CPU runs P13
+						[2620] P23 completes IO
+						[2621] P47 completes IO
+						[2626] P8 completes IO
+						[2626] P13 starts IO
+[At time 2626]
+   Q1:
+   Q2: P23 P47 P8
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2626--2631] CPU runs P23
+						[2629] P44 completes IO
+						[2631] P23 starts IO
+[At time 2631]
+   Q1:
+   Q2: P47 P8 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2631--2640] CPU runs P47
+						[2640] P47 starts IO
+[At time 2640]
+   Q1:
+   Q2: P8 P44
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2640--2645] CPU runs P8
+						[2642] P28 completes IO
+						[2645] P8 starts IO
+[At time 2645]
+   Q1:
+   Q2: P44 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2645--2650] CPU runs P44
+						[2646] P37 completes IO
+						[2647] P7 completes IO
+						[2650] P44 starts IO
+[At time 2650]
+   Q1:
+   Q2: P28 P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2650--2655] CPU runs P28
+						[2655] P28 starts IO
+[At time 2655]
+   Q1:
+   Q2: P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2655--2664] CPU runs P37
+						[2656] P10 completes IO
+						[2658] P45 completes IO
+						[2664] P37 starts IO
+[At time 2664]
+   Q1:
+   Q2: P7 P10 P45
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2664--2673] CPU runs P7
+						[2668] P30 completes IO
+						[2673] P7 starts IO
+[At time 2673]
+   Q1:
+   Q2: P10 P45 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2673--2681] CPU runs P10
+						[2677] P13 completes IO
+						[2677] P41 completes IO
+						[2681] P10 starts IO
+[At time 2681]
+   Q1:
+   Q2: P45 P30 P13 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2681--2691] CPU runs P45
+						[2691] P45 starts IO
+[At time 2691]
+   Q1:
+   Q2: P30 P13 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2691--2698] CPU runs P30
+						[2698] P30 starts IO
+[At time 2698]
+   Q1:
+   Q2: P13 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2698--2703] CPU runs P13
+						[2699] P23 completes IO
+						[2703] P13 starts IO
+[At time 2703]
+   Q1:
+   Q2: P41 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2703--2711] CPU runs P41
+						[2706] P1 completes IO
+						[2711] P41 starts IO
+[At time 2711]
+   Q1:
+   Q2: P23 P1
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2711--2720] CPU runs P23
+						[2714] P47 completes IO
+						[2720] P23 starts IO
+[At time 2720]
+   Q1:
+   Q2: P1 P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2720--2728] CPU runs P1
+						[2728] P1 terminates
+[At time 2728]
+   Q1:
+   Q2: P47
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2728--2737] CPU runs P47
+						[2730] P8 completes IO
+						[2733] P28 completes IO
+						[2737] P47 starts IO
+[At time 2737]
+   Q1:
+   Q2: P8 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2737--2744] CPU runs P8
+						[2738] P44 completes IO
+						[2741] P45 completes IO
+						[2743] P37 completes IO
+						[2744] P8 starts IO
+[At time 2744]
+   Q1:
+   Q2: P28 P44 P45 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2744--2754] CPU runs P28
+						[2754] P28 starts IO
+[At time 2754]
+   Q1:
+   Q2: P44 P45 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2754--2759] CPU runs P44
+						[2759] P44 starts IO
+[At time 2759]
+   Q1:
+   Q2: P45 P37
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2759--2767] CPU runs P45
+						[2760] P7 completes IO
+						[2767] P45 starts IO
+[At time 2767]
+   Q1:
+   Q2: P37 P7
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2767--2776] CPU runs P37
+						[2768] P13 completes IO
+						[2769] P10 completes IO
+						[2776] P37 starts IO
+[At time 2776]
+   Q1:
+   Q2: P7 P13 P10
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2776--2782] CPU runs P7
+						[2780] P30 completes IO
+						[2782] P7 starts IO
+[At time 2782]
+   Q1:
+   Q2: P13 P10 P30
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2782--2790] CPU runs P13
+						[2790] P41 completes IO
+						[2790] P13 starts IO
+[At time 2790]
+   Q1:
+   Q2: P10 P30 P41
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2790--2799] CPU runs P10
+						[2791] P23 completes IO
+						[2799] P10 starts IO
+[At time 2799]
+   Q1:
+   Q2: P30 P41 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2799--2806] CPU runs P30
+						[2806] P30 starts IO
+[At time 2806]
+   Q1:
+   Q2: P41 P23
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2806--2815] CPU runs P41
+						[2807] P28 completes IO
+						[2815] P41 starts IO
+[At time 2815]
+   Q1:
+   Q2: P23 P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2815--2822] CPU runs P23
+						[2822] P23 starts IO
+[At time 2822]
+   Q1:
+   Q2: P28
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2822--2828] CPU runs P28
+						[2828] P28 terminates
+[At time 2828]
+   Q1:
+   Q2:
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2828--2836] CPU runs P46
+						[2830] P44 completes IO
+						[2831] P47 completes IO
+						[2833] P8 completes IO
+						[2836] P46 starts IO
+[At time 2836]
+   Q1:
+   Q2: P44 P47 P8
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2836--2843] CPU runs P44
+						[2843] P44 starts IO
+[At time 2843]
+   Q1:
+   Q2: P47 P8
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2843--2850] CPU runs P47
+						[2850] P45 completes IO
+						[2850] P47 starts IO
+[At time 2850]
+   Q1:
+   Q2: P8 P45
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2850--2856] CPU runs P8
+						[2854] P37 completes IO
+						[2855] P7 completes IO
+						[2856] P8 starts IO
+[At time 2856]
+   Q1:
+   Q2: P45 P37 P7
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2856--2864] CPU runs P45
+						[2864] P45 starts IO
+[At time 2864]
+   Q1:
+   Q2: P37 P7
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2864--2871] CPU runs P37
+						[2870] P30 completes IO
+						[2871] P37 starts IO
+[At time 2871]
+   Q1:
+   Q2: P7 P30
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2871--2878] CPU runs P7
+						[2878] P7 starts IO
+[At time 2878]
+   Q1:
+   Q2: P30
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2878--2884] CPU runs P30
+						[2884] P10 completes IO
+						[2884] P30 starts IO
+[At time 2884]
+   Q1:
+   Q2: P10
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2884--2891] CPU runs P10
+						[2889] P13 completes IO
+						[2891] P10 starts IO
+[At time 2891]
+   Q1:
+   Q2: P13
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2891--2896] CPU runs P13
+						[2896] P23 completes IO
+						[2896] P13 starts IO
+[At time 2896]
+   Q1:
+   Q2: P23
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2896--2905] CPU runs P23
+						[2904] P41 completes IO
+						[2905] P23 starts IO
+[At time 2905]
+   Q1:
+   Q2: P41
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2905--2912] CPU runs P41
+						[2907] P47 completes IO
+						[2912] P41 starts IO
+[At time 2912]
+   Q1:
+   Q2: P47
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2912--2917] CPU runs P47
+						[2917] P47 starts IO
+[At time 2917]
+   Q1:
+   Q2:
+   Q3: P19 P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38
+[2917--2923] CPU runs P19
+						[2918] P46 completes IO
+						[2923] P19 starts IO
+[At time 2923]
+   Q1:
+   Q2:
+   Q3: P49 P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2923--2933] CPU runs P49
+						[2928] P45 completes IO
+						[2929] P44 completes IO
+						[2930] P7 completes IO
+						[2933] P49 starts IO
+[At time 2933]
+   Q1:
+   Q2: P45 P44 P7
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2933--2942] CPU runs P45
+						[2937] P8 completes IO
+						[2939] P37 completes IO
+						[2942] P45 starts IO
+[At time 2942]
+   Q1:
+   Q2: P44 P7 P8 P37
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2942--2947] CPU runs P44
+						[2947] P44 terminates
+[At time 2947]
+   Q1:
+   Q2: P7 P8 P37
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2947--2956] CPU runs P7
+						[2956] P7 starts IO
+[At time 2956]
+   Q1:
+   Q2: P8 P37
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2956--2961] CPU runs P8
+						[2961] P8 starts IO
+[At time 2961]
+   Q1:
+   Q2: P37
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2961--2966] CPU runs P37
+						[2966] P37 starts IO
+[At time 2966]
+   Q1:
+   Q2:
+   Q3: P12 P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2966--2975] CPU runs P12
+						[2975] P12 starts IO
+[At time 2975]
+   Q1:
+   Q2:
+   Q3: P40 P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2975--2983] CPU runs P40
+						[2978] P30 completes IO
+						[2983] P40 starts IO
+[At time 2983]
+   Q1:
+   Q2: P30
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46
+[2983--2990] CPU runs P30
+						[2984] P10 completes IO
+						[2985] P13 completes IO
+						[2988] P19 completes IO
+						[2990] P30 starts IO
+[At time 2990]
+   Q1:
+   Q2: P10 P13
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19
+[2990--2998] CPU runs P10
+						[2992] P47 completes IO
+						[2992] P49 completes IO
+						[2998] P10 starts IO
+[At time 2998]
+   Q1:
+   Q2: P13 P47
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[2998--3003] CPU runs P13
+						[2999] P45 completes IO
+						[3000] P41 completes IO
+						[3002] P23 completes IO
+						[3003] P13 starts IO
+[At time 3003]
+   Q1:
+   Q2: P47 P45 P41 P23
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3003--3008] CPU runs P47
+						[3008] P47 starts IO
+[At time 3008]
+   Q1:
+   Q2: P45 P41 P23
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3008--3017] CPU runs P45
+						[3017] P45 starts IO
+[At time 3017]
+   Q1:
+   Q2: P41 P23
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3017--3024] CPU runs P41
+						[3024] P41 terminates
+[At time 3024]
+   Q1:
+   Q2: P23
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3024--3034] CPU runs P23
+						[3029] P37 completes IO
+						[3034] P23 starts IO
+[At time 3034]
+   Q1:
+   Q2: P37
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3034--3041] CPU runs P37
+						[3038] P7 completes IO
+						[3041] P37 starts IO
+[At time 3041]
+   Q1:
+   Q2: P7
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3041--3048] CPU runs P7
+						[3048] P7 starts IO
+[At time 3048]
+   Q1:
+   Q2:
+   Q3: P31 P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3048--3056] CPU runs P31
+						[3052] P8 completes IO
+						[3056] P31 starts IO
+[At time 3056]
+   Q1:
+   Q2: P8
+   Q3: P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3056--3064] CPU runs P8
+						[3061] P30 completes IO
+						[3064] P8 starts IO
+[At time 3064]
+   Q1:
+   Q2: P30
+   Q3: P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49
+[3064--3071] CPU runs P30
+						[3067] P12 completes IO
+						[3071] P30 starts IO
+[At time 3071]
+   Q1:
+   Q2:
+   Q3: P35 P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12
+[3071--3080] CPU runs P35
+						[3078] P40 completes IO
+						[3079] P47 completes IO
+						[3080] P35 starts IO
+[At time 3080]
+   Q1:
+   Q2: P47
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3080--3085] CPU runs P47
+						[3082] P45 completes IO
+						[3084] P23 completes IO
+						[3085] P47 starts IO
+[At time 3085]
+   Q1:
+   Q2: P45 P23
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3085--3092] CPU runs P45
+						[3087] P10 completes IO
+						[3089] P13 completes IO
+						[3092] P45 starts IO
+[At time 3092]
+   Q1:
+   Q2: P23 P10 P13
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3092--3098] CPU runs P23
+						[3098] P23 starts IO
+[At time 3098]
+   Q1:
+   Q2: P10 P13
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3098--3108] CPU runs P10
+						[3108] P10 terminates
+[At time 3108]
+   Q1:
+   Q2: P13
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3108--3118] CPU runs P13
+						[3115] P7 completes IO
+						[3118] P13 terminates
+[At time 3118]
+   Q1:
+   Q2: P7
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3118--3126] CPU runs P7
+						[3121] P37 completes IO
+						[3126] P7 terminates
+[At time 3126]
+   Q1:
+   Q2: P37
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40
+[3126--3136] CPU runs P37
+						[3129] P8 completes IO
+						[3134] P31 completes IO
+						[3136] P37 terminates
+[At time 3136]
+   Q1:
+   Q2: P8
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31
+[3136--3141] CPU runs P8
+						[3141] P8 starts IO
+[At time 3141]
+   Q1:
+   Q2:
+   Q3: P29 P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31
+[3141--3151] CPU runs P29
+						[3148] P30 completes IO
+						[3151] P29 starts IO
+[At time 3151]
+   Q1:
+   Q2: P30
+   Q3: P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31
+[3151--3158] CPU runs P30
+						[3156] P23 completes IO
+						[3158] P30 starts IO
+[At time 3158]
+   Q1:
+   Q2: P23
+   Q3: P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31
+[3158--3167] CPU runs P23
+						[3167] P45 completes IO
+						[3167] P23 starts IO
+[At time 3167]
+   Q1:
+   Q2: P45
+   Q3: P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31
+[3167--3174] CPU runs P45
+						[3168] P47 completes IO
+						[3173] P35 completes IO
+						[3174] P45 starts IO
+[At time 3174]
+   Q1:
+   Q2: P47
+   Q3: P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3174--3179] CPU runs P47
+						[3179] P47 starts IO
+[At time 3179]
+   Q1:
+   Q2:
+   Q3: P22 P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3179--3187] CPU runs P22
+						[3187] P22 starts IO
+[At time 3187]
+   Q1:
+   Q2:
+   Q3: P17 P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3187--3195] CPU runs P17
+						[3195] P17 starts IO
+[At time 3195]
+   Q1:
+   Q2:
+   Q3: P20 P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3195--3203] CPU runs P20
+						[3200] P8 completes IO
+						[3203] P20 starts IO
+[At time 3203]
+   Q1:
+   Q2: P8
+   Q3: P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3203--3211] CPU runs P8
+						[3209] P30 completes IO
+						[3211] P8 starts IO
+[At time 3211]
+   Q1:
+   Q2: P30
+   Q3: P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3211--3219] CPU runs P30
+						[3219] P30 starts IO
+[At time 3219]
+   Q1:
+   Q2:
+   Q3: P14 P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3219--3225] CPU runs P14
+						[3225] P14 starts IO
+[At time 3225]
+   Q1:
+   Q2:
+   Q3: P5 P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3225--3234] CPU runs P5
+						[3233] P45 completes IO
+						[3234] P5 starts IO
+[At time 3234]
+   Q1:
+   Q2: P45
+   Q3: P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3234--3244] CPU runs P45
+						[3244] P45 starts IO
+[At time 3244]
+   Q1:
+   Q2:
+   Q3: P18 P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35
+[3244--3250] CPU runs P18
+						[3246] P47 completes IO
+						[3247] P29 completes IO
+						[3250] P18 starts IO
+[At time 3250]
+   Q1:
+   Q2: P47
+   Q3: P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29
+[3250--3258] CPU runs P47
+						[3251] P17 completes IO
+						[3251] P23 completes IO
+						[3258] P47 starts IO
+[At time 3258]
+   Q1:
+   Q2: P23
+   Q3: P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17
+[3258--3263] CPU runs P23
+						[3263] P23 starts IO
+[At time 3263]
+   Q1:
+   Q2:
+   Q3: P39 P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17
+[3263--3269] CPU runs P39
+						[3266] P22 completes IO
+						[3269] P39 starts IO
+[At time 3269]
+   Q1:
+   Q2:
+   Q3: P27 P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22
+[3269--3274] CPU runs P27
+						[3270] P20 completes IO
+						[3274] P27 starts IO
+[At time 3274]
+   Q1:
+   Q2:
+   Q3: P4 P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20
+[3274--3280] CPU runs P4
+						[3280] P4 starts IO
+[At time 3280]
+   Q1:
+   Q2:
+   Q3: P11 P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20
+[3280--3285] CPU runs P11
+						[3282] P8 completes IO
+						[3285] P11 starts IO
+[At time 3285]
+   Q1:
+   Q2: P8
+   Q3: P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20
+[3285--3293] CPU runs P8
+						[3286] P30 completes IO
+						[3293] P8 starts IO
+[At time 3293]
+   Q1:
+   Q2: P30
+   Q3: P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20
+[3293--3298] CPU runs P30
+						[3298] P5 completes IO
+						[3298] P30 starts IO
+[At time 3298]
+   Q1:
+   Q2:
+   Q3: P36 P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5
+[3298--3306] CPU runs P36
+						[3306] P36 starts IO
+[At time 3306]
+   Q1:
+   Q2:
+   Q3: P3 P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5
+[3306--3314] CPU runs P3
+						[3312] P14 completes IO
+						[3314] P3 starts IO
+[At time 3314]
+   Q1:
+   Q2:
+   Q3: P42 P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14
+[3314--3322] CPU runs P42
+						[3317] P23 completes IO
+						[3322] P42 starts IO
+[At time 3322]
+   Q1:
+   Q2: P23
+   Q3: P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14
+[3322--3329] CPU runs P23
+						[3327] P18 completes IO
+						[3329] P45 completes IO
+						[3329] P23 terminates
+[At time 3329]
+   Q1:
+   Q2: P45
+   Q3: P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18
+[3329--3339] CPU runs P45
+						[3334] P47 completes IO
+						[3339] P45 starts IO
+[At time 3339]
+   Q1:
+   Q2: P47
+   Q3: P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18
+[3339--3347] CPU runs P47
+						[3347] P47 terminates
+[At time 3347]
+   Q1:
+   Q2:
+   Q3: P33 P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18
+[3347--3354] CPU runs P33
+						[3350] P30 completes IO
+						[3354] P33 starts IO
+[At time 3354]
+   Q1:
+   Q2: P30
+   Q3: P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18
+[3354--3361] CPU runs P30
+						[3361] P30 starts IO
+[At time 3361]
+   Q1:
+   Q2:
+   Q3: P50 P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18
+[3361--3371] CPU runs P50
+						[3362] P39 completes IO
+						[3367] P8 completes IO
+						[3369] P27 completes IO
+						[3370] P36 completes IO
+						[3371] P50 starts IO
+[At time 3371]
+   Q1:
+   Q2: P8
+   Q3: P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36
+[3371--3380] CPU runs P8
+						[3372] P4 completes IO
+						[3380] P8 terminates
+[At time 3380]
+   Q1:
+   Q2:
+   Q3: P38 P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4
+[3380--3387] CPU runs P38
+						[3382] P11 completes IO
+						[3387] P38 starts IO
+[At time 3387]
+   Q1:
+   Q2:
+   Q3: P46 P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11
+[3387--3392] CPU runs P46
+						[3392] P46 starts IO
+[At time 3392]
+   Q1:
+   Q2:
+   Q3: P19 P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11
+[3392--3398] CPU runs P19
+						[3398] P19 starts IO
+[At time 3398]
+   Q1:
+   Q2:
+   Q3: P49 P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11
+[3398--3408] CPU runs P49
+						[3402] P42 completes IO
+						[3405] P3 completes IO
+						[3408] P49 starts IO
+[At time 3408]
+   Q1:
+   Q2:
+   Q3: P12 P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3
+[3408--3417] CPU runs P12
+						[3417] P45 completes IO
+						[3417] P12 starts IO
+[At time 3417]
+   Q1:
+   Q2: P45
+   Q3: P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3
+[3417--3425] CPU runs P45
+						[3425] P45 starts IO
+[At time 3425]
+   Q1:
+   Q2:
+   Q3: P40 P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3
+[3425--3430] CPU runs P40
+						[3429] P30 completes IO
+						[3430] P40 starts IO
+[At time 3430]
+   Q1:
+   Q2: P30
+   Q3: P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3
+[3430--3440] CPU runs P30
+						[3434] P33 completes IO
+						[3440] P30 starts IO
+[At time 3440]
+   Q1:
+   Q2:
+   Q3: P31 P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33
+[3440--3448] CPU runs P31
+						[3443] P50 completes IO
+						[3444] P46 completes IO
+						[3448] P31 starts IO
+[At time 3448]
+   Q1:
+   Q2:
+   Q3: P35 P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46
+[3448--3453] CPU runs P35
+						[3453] P35 starts IO
+[At time 3453]
+   Q1:
+   Q2:
+   Q3: P29 P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46
+[3453--3460] CPU runs P29
+						[3460] P29 starts IO
+[At time 3460]
+   Q1:
+   Q2:
+   Q3: P17 P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46
+[3460--3466] CPU runs P17
+						[3466] P17 starts IO
+[At time 3466]
+   Q1:
+   Q2:
+   Q3: P22 P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46
+[3466--3472] CPU runs P22
+						[3472] P22 starts IO
+[At time 3472]
+   Q1:
+   Q2:
+   Q3: P20 P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46
+[3472--3477] CPU runs P20
+						[3475] P49 completes IO
+						[3477] P20 starts IO
+[At time 3477]
+   Q1:
+   Q2:
+   Q3: P5 P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46 P49
+[3477--3483] CPU runs P5
+						[3483] P38 completes IO
+						[3483] P5 starts IO
+[At time 3483]
+   Q1:
+   Q2:
+   Q3: P14 P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46 P49 P38
+[3483--3491] CPU runs P14
+						[3485] P19 completes IO
+						[3486] P12 completes IO
+						[3488] P40 completes IO
+						[3491] P14 starts IO
+[At time 3491]
+   Q1:
+   Q2:
+   Q3: P18 P39 P27 P36 P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40
+[3491--3500] CPU runs P18
+						[3497] P45 completes IO
+						[3500] P18 starts IO
+[At time 3500]
+   Q1:
+   Q2: P45
+   Q3: P39 P27 P36 P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40
+[3500--3507] CPU runs P45
+						[3507] P45 starts IO
+[At time 3507]
+   Q1:
+   Q2:
+   Q3: P39 P27 P36 P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40
+[3507--3514] CPU runs P39
+						[3514] P39 starts IO
+[At time 3514]
+   Q1:
+   Q2:
+   Q3: P27 P36 P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40
+[3514--3524] CPU runs P27
+						[3521] P17 completes IO
+						[3524] P27 starts IO
+[At time 3524]
+   Q1:
+   Q2:
+   Q3: P36 P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40 P17
+[3524--3530] CPU runs P36
+						[3526] P30 completes IO
+						[3530] P36 starts IO
+[At time 3530]
+   Q1:
+   Q2: P30
+   Q3: P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40 P17
+[3530--3538] CPU runs P30
+						[3537] P5 completes IO
+						[3538] P31 completes IO
+						[3538] P30 starts IO
+[At time 3538]
+   Q1:
+   Q2:
+   Q3: P4 P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40 P17 P5 P31
+[3538--3545] CPU runs P4
+						[3545] P4 starts IO
+[At time 3545]
+   Q1:
+   Q2:
+   Q3: P11 P42 P3 P33 P50 P46 P49 P38 P19 P12 P40 P17 P5 P31
+[3545--3555] CPU runs P11
+						[3552] P35 completes IO
+						[3553] P20 completes IO
+						[3555] P29 completes IO
+						[3555] P11 starts IO
+[At time 3555]
+   Q1:
+   Q2:
+   Q3: P42 P3 P33 P50 P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29
+[3555--3562] CPU runs P42
+						[3562] P42 starts IO
+[At time 3562]
+   Q1:
+   Q2:
+   Q3: P3 P33 P50 P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29
+[3562--3567] CPU runs P3
+						[3567] P3 starts IO
+[At time 3567]
+   Q1:
+   Q2:
+   Q3: P33 P50 P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29
+[3567--3574] CPU runs P33
+						[3569] P22 completes IO
+						[3574] P33 starts IO
+[At time 3574]
+   Q1:
+   Q2:
+   Q3: P50 P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22
+[3574--3583] CPU runs P50
+						[3582] P18 completes IO
+						[3583] P27 completes IO
+						[3583] P45 completes IO
+						[3583] P50 starts IO
+[At time 3583]
+   Q1:
+   Q2: P45
+   Q3: P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27
+[3583--3588] CPU runs P45
+						[3588] P14 completes IO
+						[3588] P36 completes IO
+						[3588] P45 starts IO
+[At time 3588]
+   Q1:
+   Q2:
+   Q3: P46 P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36
+[3588--3598] CPU runs P46
+						[3598] P46 starts IO
+[At time 3598]
+   Q1:
+   Q2:
+   Q3: P49 P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36
+[3598--3604] CPU runs P49
+						[3599] P4 completes IO
+						[3600] P30 completes IO
+						[3601] P39 completes IO
+						[3604] P49 starts IO
+[At time 3604]
+   Q1:
+   Q2: P30
+   Q3: P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39
+[3604--3614] CPU runs P30
+						[3614] P30 starts IO
+[At time 3614]
+   Q1:
+   Q2:
+   Q3: P38 P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39
+[3614--3623] CPU runs P38
+						[3623] P38 starts IO
+[At time 3623]
+   Q1:
+   Q2:
+   Q3: P19 P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39
+[3623--3630] CPU runs P19
+						[3624] P3 completes IO
+						[3629] P11 completes IO
+						[3630] P19 starts IO
+[At time 3630]
+   Q1:
+   Q2:
+   Q3: P12 P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11
+[3630--3635] CPU runs P12
+						[3635] P12 starts IO
+[At time 3635]
+   Q1:
+   Q2:
+   Q3: P40 P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11
+[3635--3643] CPU runs P40
+						[3636] P50 completes IO
+						[3643] P40 starts IO
+[At time 3643]
+   Q1:
+   Q2:
+   Q3: P17 P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50
+[3643--3649] CPU runs P17
+						[3646] P45 completes IO
+						[3649] P17 starts IO
+[At time 3649]
+   Q1:
+   Q2: P45
+   Q3: P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50
+[3649--3654] CPU runs P45
+						[3654] P45 terminates
+[At time 3654]
+   Q1:
+   Q2:
+   Q3: P5 P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50
+[3654--3661] CPU runs P5
+						[3658] P49 completes IO
+						[3659] P42 completes IO
+						[3661] P5 starts IO
+[At time 3661]
+   Q1:
+   Q2:
+   Q3: P31 P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42
+[3661--3671] CPU runs P31
+						[3665] P33 completes IO
+						[3671] P31 starts IO
+[At time 3671]
+   Q1:
+   Q2:
+   Q3: P35 P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33
+[3671--3678] CPU runs P35
+						[3678] P30 completes IO
+						[3678] P35 starts IO
+[At time 3678]
+   Q1:
+   Q2: P30
+   Q3: P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33
+[3678--3687] CPU runs P30
+						[3687] P30 starts IO
+[At time 3687]
+   Q1:
+   Q2:
+   Q3: P20 P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33
+[3687--3695] CPU runs P20
+						[3694] P19 completes IO
+						[3695] P20 starts IO
+[At time 3695]
+   Q1:
+   Q2:
+   Q3: P29 P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33 P19
+[3695--3700] CPU runs P29
+						[3697] P38 completes IO
+						[3698] P46 completes IO
+						[3700] P29 starts IO
+[At time 3700]
+   Q1:
+   Q2:
+   Q3: P22 P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46
+[3700--3706] CPU runs P22
+						[3706] P22 starts IO
+[At time 3706]
+   Q1:
+   Q2:
+   Q3: P18 P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46
+[3706--3714] CPU runs P18
+						[3714] P18 starts IO
+[At time 3714]
+   Q1:
+   Q2:
+   Q3: P27 P14 P36 P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46
+[3714--3723] CPU runs P27
+						[3715] P12 completes IO
+						[3723] P27 starts IO
+[At time 3723]
+   Q1:
+   Q2:
+   Q3: P14 P36 P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46 P12
+[3723--3733] CPU runs P14
+						[3726] P40 completes IO
+						[3733] P14 starts IO
+[At time 3733]
+   Q1:
+   Q2:
+   Q3: P36 P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46 P12 P40
+[3733--3738] CPU runs P36
+						[3737] P17 completes IO
+						[3738] P36 starts IO
+[At time 3738]
+   Q1:
+   Q2:
+   Q3: P4 P39 P3 P11 P50 P49 P42 P33 P19 P38 P46 P12 P40 P17
+[3738--3744] CPU runs P4
+						[3744] P5 completes IO
+						[3744] P4 starts IO
+[At time 3744]
+   Q1:
+   Q2:
+   Q3: P39 P3 P11 P50 P49 P42 P33 P19 P38 P46 P12 P40 P17 P5
+[3744--3752] CPU runs P39
+						[3752] P39 starts IO
+[At time 3752]
+   Q1:
+   Q2:
+   Q3: P3 P11 P50 P49 P42 P33 P19 P38 P46 P12 P40 P17 P5
+[3752--3759] CPU runs P3
+						[3756] P35 completes IO
+						[3758] P31 completes IO
+						[3759] P3 starts IO
+[At time 3759]
+   Q1:
+   Q2:
+   Q3: P11 P50 P49 P42 P33 P19 P38 P46 P12 P40 P17 P5 P35 P31
+[3759--3765] CPU runs P11
+						[3765] P11 starts IO
+[At time 3765]
+   Q1:
+   Q2:
+   Q3: P50 P49 P42 P33 P19 P38 P46 P12 P40 P17 P5 P35 P31
+[3765--3771] CPU runs P50
+						[3771] P50 starts IO
+[At time 3771]
+   Q1:
+   Q2:
+   Q3: P49 P42 P33 P19 P38 P46 P12 P40 P17 P5 P35 P31
+[3771--3780] CPU runs P49
+						[3773] P30 completes IO
+						[3780] P49 starts IO
+[At time 3780]
+   Q1:
+   Q2: P30
+   Q3: P42 P33 P19 P38 P46 P12 P40 P17 P5 P35 P31
+[3780--3789] CPU runs P30
+						[3787] P22 completes IO
+						[3789] P20 completes IO
+						[3789] P30 terminates
+[At time 3789]
+   Q1:
+   Q2:
+   Q3: P42 P33 P19 P38 P46 P12 P40 P17 P5 P35 P31 P22 P20
+[3789--3794] CPU runs P42
+						[3791] P29 completes IO
+						[3794] P42 starts IO
+[At time 3794]
+   Q1:
+   Q2:
+   Q3: P33 P19 P38 P46 P12 P40 P17 P5 P35 P31 P22 P20 P29
+[3794--3801] CPU runs P33
+						[3795] P18 completes IO
+						[3796] P36 completes IO
+						[3800] P14 completes IO
+						[3801] P33 starts IO
+[At time 3801]
+   Q1:
+   Q2:
+   Q3: P19 P38 P46 P12 P40 P17 P5 P35 P31 P22 P20 P29 P18 P36 P14
+[3801--3809] CPU runs P19
+						[3809] P19 starts IO
+[At time 3809]
+   Q1:
+   Q2:
+   Q3: P38 P46 P12 P40 P17 P5 P35 P31 P22 P20 P29 P18 P36 P14
+[3809--3819] CPU runs P38
+						[3812] P39 completes IO
+						[3819] P38 starts IO
+[At time 3819]
+   Q1:
+   Q2:
+   Q3: P46 P12 P40 P17 P5 P35 P31 P22 P20 P29 P18 P36 P14 P39
+[3819--3828] CPU runs P46
+						[3822] P27 completes IO
+						[3828] P46 starts IO
+[At time 3828]
+   Q1:
+   Q2:
+   Q3: P12 P40 P17 P5 P35 P31 P22 P20 P29 P18 P36 P14 P39 P27
+[3828--3835] CPU runs P12
+						[3835] P4 completes IO
+						[3835] P12 starts IO
+[At time 3835]
+   Q1:
+   Q2:
+   Q3: P40 P17 P5 P35 P31 P22 P20 P29 P18 P36 P14 P39 P27 P4
+[3835--3844] CPU runs P40
+						[3841] P49 completes IO
+						[3844] P40 starts IO
+[At time 3844]
+   Q1:
+   Q2:
+   Q3: P17 P5 P35 P31 P22 P20 P29 P18 P36 P14 P39 P27 P4 P49
+[3844--3851] CPU runs P17
+						[3846] P11 completes IO
+						[3851] P17 starts IO
+[At time 3851]
+   Q1:
+   Q2:
+   Q3: P5 P35 P31 P22 P20 P29 P18 P36 P14 P39 P27 P4 P49 P11
+[3851--3858] CPU runs P5
+						[3856] P3 completes IO
+						[3858] P5 starts IO
+[At time 3858]
+   Q1:
+   Q2:
+   Q3: P35 P31 P22 P20 P29 P18 P36 P14 P39 P27 P4 P49 P11 P3
+[3858--3865] CPU runs P35
+						[3859] P19 completes IO
+						[3865] P35 starts IO
+[At time 3865]
+   Q1:
+   Q2:
+   Q3: P31 P22 P20 P29 P18 P36 P14 P39 P27 P4 P49 P11 P3 P19
+[3865--3874] CPU runs P31
+						[3868] P33 completes IO
+						[3869] P50 completes IO
+						[3874] P31 starts IO
+[At time 3874]
+   Q1:
+   Q2:
+   Q3: P22 P20 P29 P18 P36 P14 P39 P27 P4 P49 P11 P3 P19 P33 P50
+[3874--3882] CPU runs P22
+						[3882] P22 starts IO
+[At time 3882]
+   Q1:
+   Q2:
+   Q3: P20 P29 P18 P36 P14 P39 P27 P4 P49 P11 P3 P19 P33 P50
+[3882--3890] CPU runs P20
+						[3887] P38 completes IO
+						[3888] P42 completes IO
+						[3890] P20 starts IO
+[At time 3890]
+   Q1:
+   Q2:
+   Q3: P29 P18 P36 P14 P39 P27 P4 P49 P11 P3 P19 P33 P50 P38 P42
+[3890--3899] CPU runs P29
+						[3899] P29 starts IO
+[At time 3899]
+   Q1:
+   Q2:
+   Q3: P18 P36 P14 P39 P27 P4 P49 P11 P3 P19 P33 P50 P38 P42
+[3899--3905] CPU runs P18
+						[3904] P46 completes IO
+						[3905] P18 starts IO
+[At time 3905]
+   Q1:
+   Q2:
+   Q3: P36 P14 P39 P27 P4 P49 P11 P3 P19 P33 P50 P38 P42 P46
+[3905--3910] CPU runs P36
+						[3908] P12 completes IO
+						[3909] P5 completes IO
+						[3910] P40 completes IO
+						[3910] P36 starts IO
+[At time 3910]
+   Q1:
+   Q2:
+   Q3: P14 P39 P27 P4 P49 P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40
+[3910--3918] CPU runs P14
+						[3918] P14 starts IO
+[At time 3918]
+   Q1:
+   Q2:
+   Q3: P39 P27 P4 P49 P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40
+[3918--3925] CPU runs P39
+						[3923] P17 completes IO
+						[3925] P39 starts IO
+[At time 3925]
+   Q1:
+   Q2:
+   Q3: P27 P4 P49 P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40 P17
+[3925--3931] CPU runs P27
+						[3930] P31 completes IO
+						[3931] P27 starts IO
+[At time 3931]
+   Q1:
+   Q2:
+   Q3: P4 P49 P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40 P17 P31
+[3931--3939] CPU runs P4
+						[3939] P4 starts IO
+[At time 3939]
+   Q1:
+   Q2:
+   Q3: P49 P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40 P17 P31
+[3939--3945] CPU runs P49
+						[3945] P49 starts IO
+[At time 3945]
+   Q1:
+   Q2:
+   Q3: P11 P3 P19 P33 P50 P38 P42 P46 P12 P5 P40 P17 P31
+[3945--3952] CPU runs P11
+						[3947] P22 completes IO
+						[3952] P11 starts IO
+[At time 3952]
+   Q1:
+   Q2:
+   Q3: P3 P19 P33 P50 P38 P42 P46 P12 P5 P40 P17 P31 P22
+[3952--3961] CPU runs P3
+						[3953] P35 completes IO
+						[3957] P20 completes IO
+						[3961] P3 starts IO
+[At time 3961]
+   Q1:
+   Q2:
+   Q3: P19 P33 P50 P38 P42 P46 P12 P5 P40 P17 P31 P22 P35 P20
+[3961--3966] CPU runs P19
+						[3964] P29 completes IO
+						[3966] P19 starts IO
+[At time 3966]
+   Q1:
+   Q2:
+   Q3: P33 P50 P38 P42 P46 P12 P5 P40 P17 P31 P22 P35 P20 P29
+[3966--3975] CPU runs P33
+						[3974] P14 completes IO
+						[3975] P33 starts IO
+[At time 3975]
+   Q1:
+   Q2:
+   Q3: P50 P38 P42 P46 P12 P5 P40 P17 P31 P22 P35 P20 P29 P14
+[3975--3982] CPU runs P50
+						[3978] P39 completes IO
+						[3979] P18 completes IO
+						[3982] P50 starts IO
+[At time 3982]
+   Q1:
+   Q2:
+   Q3: P38 P42 P46 P12 P5 P40 P17 P31 P22 P35 P20 P29 P14 P39 P18
+[3982--3990] CPU runs P38
+						[3985] P27 completes IO
+						[3990] P38 starts IO
+[At time 3990]
+   Q1:
+   Q2:
+   Q3: P42 P46 P12 P5 P40 P17 P31 P22 P35 P20 P29 P14 P39 P18 P27
+[3990--3997] CPU runs P42
+						[3991] P36 completes IO
+						[3997] P42 starts IO
+[At time 3997]
+   Q1:
+   Q2:
+   Q3: P46 P12 P5 P40 P17 P31 P22 P35 P20 P29 P14 P39 P18 P27 P36
+[3997--4005] CPU runs P46
+						[4005] P46 starts IO
+[At time 4005]
+   Q1:
+   Q2:
+   Q3: P12 P5 P40 P17 P31 P22 P35 P20 P29 P14 P39 P18 P27 P36
+[4005--4010] CPU runs P12
+						[4010] P12 starts IO
+[At time 4010]
+   Q1:
+   Q2:
+   Q3: P5 P40 P17 P31 P22 P35 P20 P29 P14 P39 P18 P27 P36
+[4010--4018] CPU runs P5
+						[4018] P5 starts IO
+[At time 4018]
+   Q1:
+   Q2:
+   Q3: P40 P17 P31 P22 P35 P20 P29 P14 P39 P18 P27 P36
+[4018--4023] CPU runs P40
+						[4023] P40 starts IO
+[At time 4023]
+   Q1:
+   Q2:
+   Q3: P17 P31 P22 P35 P20 P29 P14 P39 P18 P27 P36
+[4023--4032] CPU runs P17
+						[4025] P19 completes IO
+						[4025] P3 completes IO
+						[4028] P11 completes IO
+						[4028] P4 completes IO
+						[4028] P49 completes IO
+						[4032] P17 starts IO
+[At time 4032]
+   Q1:
+   Q2:
+   Q3: P31 P22 P35 P20 P29 P14 P39 P18 P27 P36 P19 P3 P11 P4 P49
+[4032--4038] CPU runs P31
+						[4033] P33 completes IO
+						[4038] P31 starts IO
+[At time 4038]
+   Q1:
+   Q2:
+   Q3: P22 P35 P20 P29 P14 P39 P18 P27 P36 P19 P3 P11 P4 P49 P33
+[4038--4048] CPU runs P22
+						[4048] P22 starts IO
+[At time 4048]
+   Q1:
+   Q2:
+   Q3: P35 P20 P29 P14 P39 P18 P27 P36 P19 P3 P11 P4 P49 P33
+[4048--4054] CPU runs P35
+						[4054] P35 starts IO
+[At time 4054]
+   Q1:
+   Q2:
+   Q3: P20 P29 P14 P39 P18 P27 P36 P19 P3 P11 P4 P49 P33
+[4054--4063] CPU runs P20
+						[4060] P46 completes IO
+						[4063] P20 starts IO
+[At time 4063]
+   Q1:
+   Q2:
+   Q3: P29 P14 P39 P18 P27 P36 P19 P3 P11 P4 P49 P33 P46
+[4063--4070] CPU runs P29
+						[4065] P38 completes IO
+						[4070] P29 starts IO
+[At time 4070]
+   Q1:
+   Q2:
+   Q3: P14 P39 P18 P27 P36 P19 P3 P11 P4 P49 P33 P46 P38
+[4070--4076] CPU runs P14
+						[4071] P12 completes IO
+						[4076] P14 starts IO
+[At time 4076]
+   Q1:
+   Q2:
+   Q3: P39 P18 P27 P36 P19 P3 P11 P4 P49 P33 P46 P38 P12
+[4076--4082] CPU runs P39
+						[4079] P50 completes IO
+						[4081] P42 completes IO
+						[4082] P39 starts IO
+[At time 4082]
+   Q1:
+   Q2:
+   Q3: P18 P27 P36 P19 P3 P11 P4 P49 P33 P46 P38 P12 P50 P42
+[4082--4089] CPU runs P18
+						[4084] P40 completes IO
+						[4089] P5 completes IO
+						[4089] P18 starts IO
+[At time 4089]
+   Q1:
+   Q2:
+   Q3: P27 P36 P19 P3 P11 P4 P49 P33 P46 P38 P12 P50 P42 P40 P5
+[4089--4094] CPU runs P27
+						[4094] P27 starts IO
+[At time 4094]
+   Q1:
+   Q2:
+   Q3: P36 P19 P3 P11 P4 P49 P33 P46 P38 P12 P50 P42 P40 P5
+[4094--4102] CPU runs P36
+						[4099] P17 completes IO
+						[4102] P36 starts IO
+[At time 4102]
+   Q1:
+   Q2:
+   Q3: P19 P3 P11 P4 P49 P33 P46 P38 P12 P50 P42 P40 P5 P17
+[4102--4111] CPU runs P19
+						[4107] P22 completes IO
+						[4111] P19 starts IO
+[At time 4111]
+   Q1:
+   Q2:
+   Q3: P3 P11 P4 P49 P33 P46 P38 P12 P50 P42 P40 P5 P17 P22
+[4111--4118] CPU runs P3
+						[4118] P35 completes IO
+						[4118] P3 starts IO
+[At time 4118]
+   Q1:
+   Q2:
+   Q3: P11 P4 P49 P33 P46 P38 P12 P50 P42 P40 P5 P17 P22 P35
+[4118--4127] CPU runs P11
+						[4127] P11 starts IO
+[At time 4127]
+   Q1:
+   Q2:
+   Q3: P4 P49 P33 P46 P38 P12 P50 P42 P40 P5 P17 P22 P35
+[4127--4134] CPU runs P4
+						[4132] P31 completes IO
+						[4134] P4 starts IO
+[At time 4134]
+   Q1:
+   Q2:
+   Q3: P49 P33 P46 P38 P12 P50 P42 P40 P5 P17 P22 P35 P31
+[4134--4139] CPU runs P49
+						[4139] P49 starts IO
+[At time 4139]
+   Q1:
+   Q2:
+   Q3: P33 P46 P38 P12 P50 P42 P40 P5 P17 P22 P35 P31
+[4139--4147] CPU runs P33
+						[4147] P33 starts IO
+[At time 4147]
+   Q1:
+   Q2:
+   Q3: P46 P38 P12 P50 P42 P40 P5 P17 P22 P35 P31
+[4147--4156] CPU runs P46
+						[4149] P29 completes IO
+						[4152] P20 completes IO
+						[4156] P46 starts IO
+[At time 4156]
+   Q1:
+   Q2:
+   Q3: P38 P12 P50 P42 P40 P5 P17 P22 P35 P31 P29 P20
+[4156--4165] CPU runs P38
+						[4160] P18 completes IO
+						[4165] P38 starts IO
+[At time 4165]
+   Q1:
+   Q2:
+   Q3: P12 P50 P42 P40 P5 P17 P22 P35 P31 P29 P20 P18
+[4165--4170] CPU runs P12
+						[4169] P14 completes IO
+						[4170] P12 starts IO
+[At time 4170]
+   Q1:
+   Q2:
+   Q3: P50 P42 P40 P5 P17 P22 P35 P31 P29 P20 P18 P14
+[4170--4177] CPU runs P50
+						[4176] P19 completes IO
+						[4177] P50 starts IO
+[At time 4177]
+   Q1:
+   Q2:
+   Q3: P42 P40 P5 P17 P22 P35 P31 P29 P20 P18 P14 P19
+[4177--4186] CPU runs P42
+						[4181] P36 completes IO
+						[4181] P39 completes IO
+						[4183] P27 completes IO
+						[4186] P42 starts IO
+[At time 4186]
+   Q1:
+   Q2:
+   Q3: P40 P5 P17 P22 P35 P31 P29 P20 P18 P14 P19 P36 P39 P27
+[4186--4195] CPU runs P40
+						[4189] P3 completes IO
+						[4195] P40 starts IO
+[At time 4195]
+   Q1:
+   Q2:
+   Q3: P5 P17 P22 P35 P31 P29 P20 P18 P14 P19 P36 P39 P27 P3
+[4195--4204] CPU runs P5
+						[4204] P5 starts IO
+[At time 4204]
+   Q1:
+   Q2:
+   Q3: P17 P22 P35 P31 P29 P20 P18 P14 P19 P36 P39 P27 P3
+[4204--4214] CPU runs P17
+						[4212] P46 completes IO
+						[4213] P4 completes IO
+						[4214] P17 starts IO
+[At time 4214]
+   Q1:
+   Q2:
+   Q3: P22 P35 P31 P29 P20 P18 P14 P19 P36 P39 P27 P3 P46 P4
+[4214--4221] CPU runs P22
+						[4216] P49 completes IO
+						[4221] P22 starts IO
+[At time 4221]
+   Q1:
+   Q2:
+   Q3: P35 P31 P29 P20 P18 P14 P19 P36 P39 P27 P3 P46 P4 P49
+[4221--4227] CPU runs P35
+						[4224] P11 completes IO
+						[4227] P35 starts IO
+[At time 4227]
+   Q1:
+   Q2:
+   Q3: P31 P29 P20 P18 P14 P19 P36 P39 P27 P3 P46 P4 P49 P11
+[4227--4234] CPU runs P31
+						[4229] P33 completes IO
+						[4233] P50 completes IO
+						[4234] P31 starts IO
+[At time 4234]
+   Q1:
+   Q2:
+   Q3: P29 P20 P18 P14 P19 P36 P39 P27 P3 P46 P4 P49 P11 P33 P50
+[4234--4240] CPU runs P29
+						[4239] P12 completes IO
+						[4239] P42 completes IO
+						[4240] P38 completes IO
+						[4240] P29 starts IO
+[At time 4240]
+   Q1:
+   Q2:
+   Q3: P20 P18 P14 P19 P36 P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4240--4248] CPU runs P20
+						[4248] P20 starts IO
+[At time 4248]
+   Q1:
+   Q2:
+   Q3: P18 P14 P19 P36 P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4248--4254] CPU runs P18
+						[4254] P18 starts IO
+[At time 4254]
+   Q1:
+   Q2:
+   Q3: P14 P19 P36 P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4254--4264] CPU runs P14
+						[4264] P14 starts IO
+[At time 4264]
+   Q1:
+   Q2:
+   Q3: P19 P36 P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4264--4272] CPU runs P19
+						[4272] P19 starts IO
+[At time 4272]
+   Q1:
+   Q2:
+   Q3: P36 P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4272--4280] CPU runs P36
+						[4280] P36 starts IO
+[At time 4280]
+   Q1:
+   Q2:
+   Q3: P39 P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38
+[4280--4288] CPU runs P39
+						[4282] P5 completes IO
+						[4283] P17 completes IO
+						[4288] P39 starts IO
+[At time 4288]
+   Q1:
+   Q2:
+   Q3: P27 P3 P46 P4 P49 P11 P33 P50 P12 P42 P38 P5 P17
+[4288--4298] CPU runs P27
+						[4291] P29 completes IO
+						[4292] P40 completes IO
+						[4298] P27 starts IO
+[At time 4298]
+   Q1:
+   Q2:
+   Q3: P3 P46 P4 P49 P11 P33 P50 P12 P42 P38 P5 P17 P29 P40
+[4298--4305] CPU runs P3
+						[4305] P3 starts IO
+[At time 4305]
+   Q1:
+   Q2:
+   Q3: P46 P4 P49 P11 P33 P50 P12 P42 P38 P5 P17 P29 P40
+[4305--4313] CPU runs P46
+						[4310] P20 completes IO
+						[4311] P22 completes IO
+						[4313] P46 starts IO
+[At time 4313]
+   Q1:
+   Q2:
+   Q3: P4 P49 P11 P33 P50 P12 P42 P38 P5 P17 P29 P40 P20 P22
+[4313--4321] CPU runs P4
+						[4321] P4 starts IO
+[At time 4321]
+   Q1:
+   Q2:
+   Q3: P49 P11 P33 P50 P12 P42 P38 P5 P17 P29 P40 P20 P22
+[4321--4329] CPU runs P49
+						[4324] P31 completes IO
+						[4327] P35 completes IO
+						[4329] P49 starts IO
+[At time 4329]
+   Q1:
+   Q2:
+   Q3: P11 P33 P50 P12 P42 P38 P5 P17 P29 P40 P20 P22 P31 P35
+[4329--4336] CPU runs P11
+						[4330] P19 completes IO
+						[4336] P11 starts IO
+[At time 4336]
+   Q1:
+   Q2:
+   Q3: P33 P50 P12 P42 P38 P5 P17 P29 P40 P20 P22 P31 P35 P19
+[4336--4343] CPU runs P33
+						[4337] P18 completes IO
+						[4343] P33 starts IO
+[At time 4343]
+   Q1:
+   Q2:
+   Q3: P50 P12 P42 P38 P5 P17 P29 P40 P20 P22 P31 P35 P19 P18
+[4343--4353] CPU runs P50
+						[4344] P14 completes IO
+						[4344] P36 completes IO
+						[4353] P50 starts IO
+[At time 4353]
+   Q1:
+   Q2:
+   Q3: P12 P42 P38 P5 P17 P29 P40 P20 P22 P31 P35 P19 P18 P14 P36
+[4353--4363] CPU runs P12
+						[4363] P12 starts IO
+[At time 4363]
+   Q1:
+   Q2:
+   Q3: P42 P38 P5 P17 P29 P40 P20 P22 P31 P35 P19 P18 P14 P36
+[4363--4373] CPU runs P42
+						[4364] P3 completes IO
+						[4364] P46 completes IO
+						[4370] P39 completes IO
+						[4373] P42 starts IO
+[At time 4373]
+   Q1:
+   Q2:
+   Q3: P38 P5 P17 P29 P40 P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39
+[4373--4382] CPU runs P38
+						[4375] P27 completes IO
+						[4382] P38 starts IO
+[At time 4382]
+   Q1:
+   Q2:
+   Q3: P5 P17 P29 P40 P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27
+[4382--4387] CPU runs P5
+						[4387] P5 starts IO
+[At time 4387]
+   Q1:
+   Q2:
+   Q3: P17 P29 P40 P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27
+[4387--4397] CPU runs P17
+						[4395] P11 completes IO
+						[4397] P17 starts IO
+[At time 4397]
+   Q1:
+   Q2:
+   Q3: P29 P40 P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27 P11
+[4397--4402] CPU runs P29
+						[4402] P29 starts IO
+[At time 4402]
+   Q1:
+   Q2:
+   Q3: P40 P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27 P11
+[4402--4407] CPU runs P40
+						[4403] P4 completes IO
+						[4407] P40 starts IO
+[At time 4407]
+   Q1:
+   Q2:
+   Q3: P20 P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27 P11 P4
+[4407--4415] CPU runs P20
+						[4415] P20 starts IO
+[At time 4415]
+   Q1:
+   Q2:
+   Q3: P22 P31 P35 P19 P18 P14 P36 P3 P46 P39 P27 P11 P4
+[4415--4424] CPU runs P22
+						[4416] P33 completes IO
+						[4424] P22 starts IO
+[At time 4424]
+   Q1:
+   Q2:
+   Q3: P31 P35 P19 P18 P14 P36 P3 P46 P39 P27 P11 P4 P33
+[4424--4434] CPU runs P31
+						[4426] P49 completes IO
+						[4428] P50 completes IO
+						[4432] P42 completes IO
+						[4434] P31 starts IO
+[At time 4434]
+   Q1:
+   Q2:
+   Q3: P35 P19 P18 P14 P36 P3 P46 P39 P27 P11 P4 P33 P49 P50 P42
+[4434--4442] CPU runs P35
+						[4442] P35 starts IO
+[At time 4442]
+   Q1:
+   Q2:
+   Q3: P19 P18 P14 P36 P3 P46 P39 P27 P11 P4 P33 P49 P50 P42
+[4442--4447] CPU runs P19
+						[4444] P38 completes IO
+						[4447] P19 starts IO
+[At time 4447]
+   Q1:
+   Q2:
+   Q3: P18 P14 P36 P3 P46 P39 P27 P11 P4 P33 P49 P50 P42 P38
+[4447--4456] CPU runs P18
+						[4453] P5 completes IO
+						[4456] P12 completes IO
+						[4456] P18 starts IO
+[At time 4456]
+   Q1:
+   Q2:
+   Q3: P14 P36 P3 P46 P39 P27 P11 P4 P33 P49 P50 P42 P38 P5 P12
+[4456--4461] CPU runs P14
+						[4461] P14 starts IO
+[At time 4461]
+   Q1:
+   Q2:
+   Q3: P36 P3 P46 P39 P27 P11 P4 P33 P49 P50 P42 P38 P5 P12
+[4461--4469] CPU runs P36
+						[4469] P36 starts IO
+[At time 4469]
+   Q1:
+   Q2:
+   Q3: P3 P46 P39 P27 P11 P4 P33 P49 P50 P42 P38 P5 P12
+[4469--4476] CPU runs P3
+						[4474] P17 completes IO
+						[4476] P3 starts IO
+[At time 4476]
+   Q1:
+   Q2:
+   Q3: P46 P39 P27 P11 P4 P33 P49 P50 P42 P38 P5 P12 P17
+[4476--4483] CPU runs P46
+						[4479] P40 completes IO
+						[4483] P29 completes IO
+						[4483] P46 starts IO
+[At time 4483]
+   Q1:
+   Q2:
+   Q3: P39 P27 P11 P4 P33 P49 P50 P42 P38 P5 P12 P17 P40 P29
+[4483--4493] CPU runs P39
+						[4493] P39 starts IO
+[At time 4493]
+   Q1:
+   Q2:
+   Q3: P27 P11 P4 P33 P49 P50 P42 P38 P5 P12 P17 P40 P29
+[4493--4498] CPU runs P27
+						[4498] P27 starts IO
+[At time 4498]
+   Q1:
+   Q2:
+   Q3: P11 P4 P33 P49 P50 P42 P38 P5 P12 P17 P40 P29
+[4498--4503] CPU runs P11
+						[4503] P11 starts IO
+[At time 4503]
+   Q1:
+   Q2:
+   Q3: P4 P33 P49 P50 P42 P38 P5 P12 P17 P40 P29
+[4503--4510] CPU runs P4
+						[4505] P20 completes IO
+						[4510] P4 starts IO
+[At time 4510]
+   Q1:
+   Q2:
+   Q3: P33 P49 P50 P42 P38 P5 P12 P17 P40 P29 P20
+[4510--4519] CPU runs P33
+						[4511] P31 completes IO
+						[4519] P33 starts IO
+[At time 4519]
+   Q1:
+   Q2:
+   Q3: P49 P50 P42 P38 P5 P12 P17 P40 P29 P20 P31
+[4519--4527] CPU runs P49
+						[4521] P36 completes IO
+						[4522] P22 completes IO
+						[4524] P14 completes IO
+						[4525] P35 completes IO
+						[4527] P19 completes IO
+						[4527] P49 starts IO
+[At time 4527]
+   Q1:
+   Q2:
+   Q3: P50 P42 P38 P5 P12 P17 P40 P29 P20 P31 P36 P22 P14 P35 P19
+[4527--4536] CPU runs P50
+						[4536] P50 starts IO
+[At time 4536]
+   Q1:
+   Q2:
+   Q3: P42 P38 P5 P12 P17 P40 P29 P20 P31 P36 P22 P14 P35 P19
+[4536--4542] CPU runs P42
+						[4542] P42 starts IO
+[At time 4542]
+   Q1:
+   Q2:
+   Q3: P38 P5 P12 P17 P40 P29 P20 P31 P36 P22 P14 P35 P19
+[4542--4552] CPU runs P38
+						[4543] P46 completes IO
+						[4552] P38 starts IO
+[At time 4552]
+   Q1:
+   Q2:
+   Q3: P5 P12 P17 P40 P29 P20 P31 P36 P22 P14 P35 P19 P46
+[4552--4562] CPU runs P5
+						[4554] P11 completes IO
+						[4555] P18 completes IO
+						[4558] P3 completes IO
+						[4562] P5 starts IO
+[At time 4562]
+   Q1:
+   Q2:
+   Q3: P12 P17 P40 P29 P20 P31 P36 P22 P14 P35 P19 P46 P11 P18 P3
+[4562--4567] CPU runs P12
+						[4563] P4 completes IO
+						[4567] P12 starts IO
+[At time 4567]
+   Q1:
+   Q2:
+   Q3: P17 P40 P29 P20 P31 P36 P22 P14 P35 P19 P46 P11 P18 P3 P4
+[4567--4576] CPU runs P17
+						[4575] P39 completes IO
+						[4576] P17 starts IO
+[At time 4576]
+   Q1:
+   Q2:
+   Q3: P40 P29 P20 P31 P36 P22 P14 P35 P19 P46 P11 P18 P3 P4 P39
+[4576--4581] CPU runs P40
+						[4581] P40 starts IO
+[At time 4581]
+   Q1:
+   Q2:
+   Q3: P29 P20 P31 P36 P22 P14 P35 P19 P46 P11 P18 P3 P4 P39
+[4581--4587] CPU runs P29
+						[4582] P49 completes IO
+						[4583] P33 completes IO
+						[4586] P27 completes IO
+						[4587] P29 starts IO
+[At time 4587]
+   Q1:
+   Q2:
+   Q3: P20 P31 P36 P22 P14 P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27
+[4587--4594] CPU runs P20
+						[4594] P20 starts IO
+[At time 4594]
+   Q1:
+   Q2:
+   Q3: P31 P36 P22 P14 P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27
+[4594--4601] CPU runs P31
+						[4601] P31 starts IO
+[At time 4601]
+   Q1:
+   Q2:
+   Q3: P36 P22 P14 P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27
+[4601--4610] CPU runs P36
+						[4610] P36 starts IO
+[At time 4610]
+   Q1:
+   Q2:
+   Q3: P22 P14 P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27
+[4610--4618] CPU runs P22
+						[4613] P38 completes IO
+						[4618] P22 starts IO
+[At time 4618]
+   Q1:
+   Q2:
+   Q3: P14 P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27 P38
+[4618--4626] CPU runs P14
+						[4626] P14 starts IO
+[At time 4626]
+   Q1:
+   Q2:
+   Q3: P35 P19 P46 P11 P18 P3 P4 P39 P49 P33 P27 P38
+[4626--4635] CPU runs P35
+						[4629] P42 completes IO
+						[4630] P50 completes IO
+						[4635] P35 starts IO
+[At time 4635]
+   Q1:
+   Q2:
+   Q3: P19 P46 P11 P18 P3 P4 P39 P49 P33 P27 P38 P42 P50
+[4635--4643] CPU runs P19
+						[4636] P40 completes IO
+						[4640] P12 completes IO
+						[4643] P19 starts IO
+[At time 4643]
+   Q1:
+   Q2:
+   Q3: P46 P11 P18 P3 P4 P39 P49 P33 P27 P38 P42 P50 P40 P12
+[4643--4651] CPU runs P46
+						[4649] P29 completes IO
+						[4651] P20 completes IO
+						[4651] P46 starts IO
+[At time 4651]
+   Q1:
+   Q2:
+   Q3: P11 P18 P3 P4 P39 P49 P33 P27 P38 P42 P50 P40 P12 P29 P20
+[4651--4659] CPU runs P11
+						[4653] P5 completes IO
+						[4655] P17 completes IO
+						[4659] P11 starts IO
+[At time 4659]
+   Q1:
+   Q2:
+   Q3: P18 P3 P4 P39 P49 P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17
+[4659--4669] CPU runs P18
+						[4669] P18 starts IO
+[At time 4669]
+   Q1:
+   Q2:
+   Q3: P3 P4 P39 P49 P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17
+[4669--4678] CPU runs P3
+						[4678] P3 starts IO
+[At time 4678]
+   Q1:
+   Q2:
+   Q3: P4 P39 P49 P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17
+[4678--4687] CPU runs P4
+						[4681] P14 completes IO
+						[4682] P22 completes IO
+						[4684] P36 completes IO
+						[4687] P4 starts IO
+[At time 4687]
+   Q1:
+   Q2:
+   Q3: P39 P49 P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36
+[4687--4695] CPU runs P39
+						[4695] P39 starts IO
+[At time 4695]
+   Q1:
+   Q2:
+   Q3: P49 P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36
+[4695--4703] CPU runs P49
+						[4699] P31 completes IO
+						[4703] P49 starts IO
+[At time 4703]
+   Q1:
+   Q2:
+   Q3: P33 P27 P38 P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36 P31
+[4703--4711] CPU runs P33
+						[4711] P33 starts IO
+[At time 4711]
+   Q1:
+   Q2:
+   Q3: P27 P38 P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36 P31
+[4711--4721] CPU runs P27
+						[4719] P46 completes IO
+						[4721] P27 starts IO
+[At time 4721]
+   Q1:
+   Q2:
+   Q3: P38 P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36 P31 P46
+[4721--4726] CPU runs P38
+						[4722] P35 completes IO
+						[4726] P18 completes IO
+						[4726] P19 completes IO
+						[4726] P38 starts IO
+[At time 4726]
+   Q1:
+   Q2:
+   Q3: P42 P50 P40 P12 P29 P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19
+[4726--4734] CPU runs P42
+						[4732] P11 completes IO
+						[4734] P42 starts IO
+[At time 4734]
+   Q1:
+   Q2:
+   Q3: P50 P40 P12 P29 P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11
+[4734--4742] CPU runs P50
+						[4737] P4 completes IO
+						[4742] P50 starts IO
+[At time 4742]
+   Q1:
+   Q2:
+   Q3: P40 P12 P29 P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4
+[4742--4752] CPU runs P40
+						[4752] P40 starts IO
+[At time 4752]
+   Q1:
+   Q2:
+   Q3: P12 P29 P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4
+[4752--4759] CPU runs P12
+						[4759] P12 starts IO
+[At time 4759]
+   Q1:
+   Q2:
+   Q3: P29 P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4
+[4759--4765] CPU runs P29
+						[4765] P29 starts IO
+[At time 4765]
+   Q1:
+   Q2:
+   Q3: P20 P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4
+[4765--4770] CPU runs P20
+						[4766] P3 completes IO
+						[4770] P20 starts IO
+[At time 4770]
+   Q1:
+   Q2:
+   Q3: P5 P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4 P3
+[4770--4779] CPU runs P5
+						[4776] P33 completes IO
+						[4778] P39 completes IO
+						[4779] P49 completes IO
+						[4779] P5 starts IO
+[At time 4779]
+   Q1:
+   Q2:
+   Q3: P17 P14 P22 P36 P31 P46 P35 P18 P19 P11 P4 P3 P33 P39 P49
+[4779--4787] CPU runs P17
+						[4787] P17 starts IO
+[At time 4787]
+   Q1:
+   Q2:
+   Q3: P14 P22 P36 P31 P46 P35 P18 P19 P11 P4 P3 P33 P39 P49
+[4787--4793] CPU runs P14
+						[4793] P14 starts IO
+[At time 4793]
+   Q1:
+   Q2:
+   Q3: P22 P36 P31 P46 P35 P18 P19 P11 P4 P3 P33 P39 P49
+[4793--4799] CPU runs P22
+						[4799] P22 starts IO
+[At time 4799]
+   Q1:
+   Q2:
+   Q3: P36 P31 P46 P35 P18 P19 P11 P4 P3 P33 P39 P49
+[4799--4804] CPU runs P36
+						[4804] P36 starts IO
+[At time 4804]
+   Q1:
+   Q2:
+   Q3: P31 P46 P35 P18 P19 P11 P4 P3 P33 P39 P49
+[4804--4813] CPU runs P31
+						[4809] P38 completes IO
+						[4813] P12 completes IO
+						[4813] P31 starts IO
+[At time 4813]
+   Q1:
+   Q2:
+   Q3: P46 P35 P18 P19 P11 P4 P3 P33 P39 P49 P38 P12
+[4813--4818] CPU runs P46
+						[4816] P50 completes IO
+						[4818] P46 starts IO
+[At time 4818]
+   Q1:
+   Q2:
+   Q3: P35 P18 P19 P11 P4 P3 P33 P39 P49 P38 P12 P50
+[4818--4825] CPU runs P35
+						[4819] P27 completes IO
+						[4825] P35 starts IO
+[At time 4825]
+   Q1:
+   Q2:
+   Q3: P18 P19 P11 P4 P3 P33 P39 P49 P38 P12 P50 P27
+[4825--4834] CPU runs P18
+						[4831] P42 completes IO
+						[4832] P29 completes IO
+						[4834] P18 starts IO
+[At time 4834]
+   Q1:
+   Q2:
+   Q3: P19 P11 P4 P3 P33 P39 P49 P38 P12 P50 P27 P42 P29
+[4834--4840] CPU runs P19
+						[4840] P20 completes IO
+						[4840] P19 starts IO
+[At time 4840]
+   Q1:
+   Q2:
+   Q3: P11 P4 P3 P33 P39 P49 P38 P12 P50 P27 P42 P29 P20
+[4840--4846] CPU runs P11
+						[4844] P40 completes IO
+						[4846] P11 starts IO
+[At time 4846]
+   Q1:
+   Q2:
+   Q3: P4 P3 P33 P39 P49 P38 P12 P50 P27 P42 P29 P20 P40
+[4846--4853] CPU runs P4
+						[4852] P5 completes IO
+						[4853] P4 starts IO
+[At time 4853]
+   Q1:
+   Q2:
+   Q3: P3 P33 P39 P49 P38 P12 P50 P27 P42 P29 P20 P40 P5
+[4853--4863] CPU runs P3
+						[4859] P14 completes IO
+						[4861] P22 completes IO
+						[4863] P17 completes IO
+						[4863] P3 starts IO
+[At time 4863]
+   Q1:
+   Q2:
+   Q3: P33 P39 P49 P38 P12 P50 P27 P42 P29 P20 P40 P5 P14 P22 P17
+[4863--4868] CPU runs P33
+						[4868] P33 starts IO
+[At time 4868]
+   Q1:
+   Q2:
+   Q3: P39 P49 P38 P12 P50 P27 P42 P29 P20 P40 P5 P14 P22 P17
+[4868--4875] CPU runs P39
+						[4875] P39 starts IO
+[At time 4875]
+   Q1:
+   Q2:
+   Q3: P49 P38 P12 P50 P27 P42 P29 P20 P40 P5 P14 P22 P17
+[4875--4880] CPU runs P49
+						[4880] P49 starts IO
+[At time 4880]
+   Q1:
+   Q2:
+   Q3: P38 P12 P50 P27 P42 P29 P20 P40 P5 P14 P22 P17
+[4880--4886] CPU runs P38
+						[4886] P38 starts IO
+[At time 4886]
+   Q1:
+   Q2:
+   Q3: P12 P50 P27 P42 P29 P20 P40 P5 P14 P22 P17
+[4886--4893] CPU runs P12
+						[4889] P31 completes IO
+						[4893] P12 starts IO
+[At time 4893]
+   Q1:
+   Q2:
+   Q3: P50 P27 P42 P29 P20 P40 P5 P14 P22 P17 P31
+[4893--4900] CPU runs P50
+						[4895] P36 completes IO
+						[4900] P50 starts IO
+[At time 4900]
+   Q1:
+   Q2:
+   Q3: P27 P42 P29 P20 P40 P5 P14 P22 P17 P31 P36
+[4900--4908] CPU runs P27
+						[4908] P27 starts IO
+[At time 4908]
+   Q1:
+   Q2:
+   Q3: P42 P29 P20 P40 P5 P14 P22 P17 P31 P36
+[4908--4918] CPU runs P42
+						[4909] P18 completes IO
+						[4913] P11 completes IO
+						[4916] P35 completes IO
+						[4917] P46 completes IO
+						[4918] P42 starts IO
+[At time 4918]
+   Q1:
+   Q2:
+   Q3: P29 P20 P40 P5 P14 P22 P17 P31 P36 P18 P11 P35 P46
+[4918--4927] CPU runs P29
+						[4925] P19 completes IO
+						[4927] P29 starts IO
+[At time 4927]
+   Q1:
+   Q2:
+   Q3: P20 P40 P5 P14 P22 P17 P31 P36 P18 P11 P35 P46 P19
+[4927--4932] CPU runs P20
+						[4931] P39 completes IO
+						[4932] P20 starts IO
+[At time 4932]
+   Q1:
+   Q2:
+   Q3: P40 P5 P14 P22 P17 P31 P36 P18 P11 P35 P46 P19 P39
+[4932--4940] CPU runs P40
+						[4934] P3 completes IO
+						[4935] P4 completes IO
+						[4940] P40 starts IO
+[At time 4940]
+   Q1:
+   Q2:
+   Q3: P5 P14 P22 P17 P31 P36 P18 P11 P35 P46 P19 P39 P3 P4
+[4940--4947] CPU runs P5
+						[4947] P5 starts IO
+[At time 4947]
+   Q1:
+   Q2:
+   Q3: P14 P22 P17 P31 P36 P18 P11 P35 P46 P19 P39 P3 P4
+[4947--4957] CPU runs P14
+						[4957] P14 starts IO
+[At time 4957]
+   Q1:
+   Q2:
+   Q3: P22 P17 P31 P36 P18 P11 P35 P46 P19 P39 P3 P4
+[4957--4965] CPU runs P22
+						[4963] P27 completes IO
+						[4963] P33 completes IO
+						[4963] P49 completes IO
+						[4965] P22 starts IO
+[At time 4965]
+   Q1:
+   Q2:
+   Q3: P17 P31 P36 P18 P11 P35 P46 P19 P39 P3 P4 P27 P33 P49
+[4965--4975] CPU runs P17
+						[4967] P12 completes IO
+						[4975] P17 starts IO
+[At time 4975]
+   Q1:
+   Q2:
+   Q3: P31 P36 P18 P11 P35 P46 P19 P39 P3 P4 P27 P33 P49 P12
+[4975--4980] CPU runs P31
+						[4977] P38 completes IO
+						[4980] P31 starts IO
+[At time 4980]
+   Q1:
+   Q2:
+   Q3: P36 P18 P11 P35 P46 P19 P39 P3 P4 P27 P33 P49 P12 P38
+[4980--4985] CPU runs P36
+						[4982] P29 completes IO
+						[4985] P36 starts IO
+[At time 4985]
+   Q1:
+   Q2:
+   Q3: P18 P11 P35 P46 P19 P39 P3 P4 P27 P33 P49 P12 P38 P29
+[4985--4993] CPU runs P18
+						[4993] P18 starts IO
+[At time 4993]
+   Q1:
+   Q2:
+   Q3: P11 P35 P46 P19 P39 P3 P4 P27 P33 P49 P12 P38 P29
+[4993--5003] CPU runs P11
+						[4994] P40 completes IO
+						[4997] P50 completes IO
+						[5003] P11 starts IO
+[At time 5003]
+   Q1:
+   Q2:
+   Q3: P35 P46 P19 P39 P3 P4 P27 P33 P49 P12 P38 P29 P40 P50
+[5003--5011] CPU runs P35
+						[5011] P35 starts IO
+[At time 5011]
+   Q1:
+   Q2:
+   Q3: P46 P19 P39 P3 P4 P27 P33 P49 P12 P38 P29 P40 P50
+[5011--5020] CPU runs P46
+						[5013] P42 completes IO
+						[5016] P20 completes IO
+						[5020] P46 terminates
+[At time 5020]
+   Q1:
+   Q2:
+   Q3: P19 P39 P3 P4 P27 P33 P49 P12 P38 P29 P40 P50 P42 P20
+[5020--5029] CPU runs P19
+						[5024] P14 completes IO
+						[5029] P19 starts IO
+[At time 5029]
+   Q1:
+   Q2:
+   Q3: P39 P3 P4 P27 P33 P49 P12 P38 P29 P40 P50 P42 P20 P14
+[5029--5036] CPU runs P39
+						[5031] P22 completes IO
+						[5031] P5 completes IO
+						[5036] P39 starts IO
+[At time 5036]
+   Q1:
+   Q2:
+   Q3: P3 P4 P27 P33 P49 P12 P38 P29 P40 P50 P42 P20 P14 P22 P5
+[5036--5046] CPU runs P3
+						[5046] P3 starts IO
+[At time 5046]
+   Q1:
+   Q2:
+   Q3: P4 P27 P33 P49 P12 P38 P29 P40 P50 P42 P20 P14 P22 P5
+[5046--5054] CPU runs P4
+						[5052] P36 completes IO
+						[5053] P18 completes IO
+						[5054] P4 starts IO
+[At time 5054]
+   Q1:
+   Q2:
+   Q3: P27 P33 P49 P12 P38 P29 P40 P50 P42 P20 P14 P22 P5 P36 P18
+[5054--5063] CPU runs P27
+						[5063] P27 starts IO
+[At time 5063]
+   Q1:
+   Q2:
+   Q3: P33 P49 P12 P38 P29 P40 P50 P42 P20 P14 P22 P5 P36 P18
+[5063--5069] CPU runs P33
+						[5065] P17 completes IO
+						[5069] P33 starts IO
+[At time 5069]
+   Q1:
+   Q2:
+   Q3: P49 P12 P38 P29 P40 P50 P42 P20 P14 P22 P5 P36 P18 P17
+[5069--5078] CPU runs P49
+						[5070] P31 completes IO
+						[5077] P11 completes IO
+						[5078] P49 starts IO
+[At time 5078]
+   Q1:
+   Q2:
+   Q3: P12 P38 P29 P40 P50 P42 P20 P14 P22 P5 P36 P18 P17 P31 P11
+[5078--5085] CPU runs P12
+						[5085] P12 terminates
+[At time 5085]
+   Q1:
+   Q2:
+   Q3: P38 P29 P40 P50 P42 P20 P14 P22 P5 P36 P18 P17 P31 P11
+[5085--5093] CPU runs P38
+						[5089] P19 completes IO
+						[5091] P35 completes IO
+						[5093] P38 starts IO
+[At time 5093]
+   Q1:
+   Q2:
+   Q3: P29 P40 P50 P42 P20 P14 P22 P5 P36 P18 P17 P31 P11 P19 P35
+[5093--5101] CPU runs P29
+						[5101] P29 starts IO
+[At time 5101]
+   Q1:
+   Q2:
+   Q3: P40 P50 P42 P20 P14 P22 P5 P36 P18 P17 P31 P11 P19 P35
+[5101--5110] CPU runs P40
+						[5107] P3 completes IO
+						[5110] P40 terminates
+[At time 5110]
+   Q1:
+   Q2:
+   Q3: P50 P42 P20 P14 P22 P5 P36 P18 P17 P31 P11 P19 P35 P3
+[5110--5119] CPU runs P50
+						[5116] P39 completes IO
+						[5119] P50 starts IO
+[At time 5119]
+   Q1:
+   Q2:
+   Q3: P42 P20 P14 P22 P5 P36 P18 P17 P31 P11 P19 P35 P3 P39
+[5119--5127] CPU runs P42
+						[5127] P42 starts IO
+[At time 5127]
+   Q1:
+   Q2:
+   Q3: P20 P14 P22 P5 P36 P18 P17 P31 P11 P19 P35 P3 P39
+[5127--5137] CPU runs P20
+						[5133] P33 completes IO
+						[5137] P20 starts IO
+[At time 5137]
+   Q1:
+   Q2:
+   Q3: P14 P22 P5 P36 P18 P17 P31 P11 P19 P35 P3 P39 P33
+[5137--5142] CPU runs P14
+						[5142] P14 starts IO
+[At time 5142]
+   Q1:
+   Q2:
+   Q3: P22 P5 P36 P18 P17 P31 P11 P19 P35 P3 P39 P33
+[5142--5152] CPU runs P22
+						[5143] P4 completes IO
+						[5152] P22 starts IO
+[At time 5152]
+   Q1:
+   Q2:
+   Q3: P5 P36 P18 P17 P31 P11 P19 P35 P3 P39 P33 P4
+[5152--5162] CPU runs P5
+						[5155] P29 completes IO
+						[5161] P27 completes IO
+						[5162] P5 starts IO
+[At time 5162]
+   Q1:
+   Q2:
+   Q3: P36 P18 P17 P31 P11 P19 P35 P3 P39 P33 P4 P29 P27
+[5162--5169] CPU runs P36
+						[5169] P49 completes IO
+						[5169] P36 starts IO
+[At time 5169]
+   Q1:
+   Q2:
+   Q3: P18 P17 P31 P11 P19 P35 P3 P39 P33 P4 P29 P27 P49
+[5169--5175] CPU runs P18
+						[5172] P50 completes IO
+						[5175] P18 starts IO
+[At time 5175]
+   Q1:
+   Q2:
+   Q3: P17 P31 P11 P19 P35 P3 P39 P33 P4 P29 P27 P49 P50
+[5175--5184] CPU runs P17
+						[5184] P17 starts IO
+[At time 5184]
+   Q1:
+   Q2:
+   Q3: P31 P11 P19 P35 P3 P39 P33 P4 P29 P27 P49 P50
+[5184--5190] CPU runs P31
+						[5187] P38 completes IO
+						[5190] P31 starts IO
+[At time 5190]
+   Q1:
+   Q2:
+   Q3: P11 P19 P35 P3 P39 P33 P4 P29 P27 P49 P50 P38
+[5190--5195] CPU runs P11
+						[5195] P11 starts IO
+[At time 5195]
+   Q1:
+   Q2:
+   Q3: P19 P35 P3 P39 P33 P4 P29 P27 P49 P50 P38
+[5195--5204] CPU runs P19
+						[5197] P20 completes IO
+						[5204] P19 starts IO
+[At time 5204]
+   Q1:
+   Q2:
+   Q3: P35 P3 P39 P33 P4 P29 P27 P49 P50 P38 P20
+[5204--5214] CPU runs P35
+						[5206] P42 completes IO
+						[5211] P14 completes IO
+						[5214] P35 starts IO
+[At time 5214]
+   Q1:
+   Q2:
+   Q3: P3 P39 P33 P4 P29 P27 P49 P50 P38 P20 P42 P14
+[5214--5223] CPU runs P3
+						[5223] P3 starts IO
+[At time 5223]
+   Q1:
+   Q2:
+   Q3: P39 P33 P4 P29 P27 P49 P50 P38 P20 P42 P14
+[5223--5231] CPU runs P39
+						[5231] P39 starts IO
+[At time 5231]
+   Q1:
+   Q2:
+   Q3: P33 P4 P29 P27 P49 P50 P38 P20 P42 P14
+[5231--5239] CPU runs P33
+						[5239] P33 starts IO
+[At time 5239]
+   Q1:
+   Q2:
+   Q3: P4 P29 P27 P49 P50 P38 P20 P42 P14
+[5239--5248] CPU runs P4
+						[5243] P17 completes IO
+						[5244] P22 completes IO
+						[5244] P36 completes IO
+						[5248] P4 starts IO
+[At time 5248]
+   Q1:
+   Q2:
+   Q3: P29 P27 P49 P50 P38 P20 P42 P14 P17 P22 P36
+[5248--5255] CPU runs P29
+						[5255] P29 starts IO
+[At time 5255]
+   Q1:
+   Q2:
+   Q3: P27 P49 P50 P38 P20 P42 P14 P17 P22 P36
+[5255--5263] CPU runs P27
+						[5259] P5 completes IO
+						[5263] P27 starts IO
+[At time 5263]
+   Q1:
+   Q2:
+   Q3: P49 P50 P38 P20 P42 P14 P17 P22 P36 P5
+[5263--5269] CPU runs P49
+						[5265] P18 completes IO
+						[5269] P49 starts IO
+[At time 5269]
+   Q1:
+   Q2:
+   Q3: P50 P38 P20 P42 P14 P17 P22 P36 P5 P18
+[5269--5279] CPU runs P50
+						[5273] P11 completes IO
+						[5275] P19 completes IO
+						[5279] P50 starts IO
+[At time 5279]
+   Q1:
+   Q2:
+   Q3: P38 P20 P42 P14 P17 P22 P36 P5 P18 P11 P19
+[5279--5288] CPU runs P38
+						[5288] P38 starts IO
+[At time 5288]
+   Q1:
+   Q2:
+   Q3: P20 P42 P14 P17 P22 P36 P5 P18 P11 P19
+[5288--5297] CPU runs P20
+						[5290] P31 completes IO
+						[5296] P3 completes IO
+						[5297] P20 starts IO
+[At time 5297]
+   Q1:
+   Q2:
+   Q3: P42 P14 P17 P22 P36 P5 P18 P11 P19 P31 P3
+[5297--5306] CPU runs P42
+						[5306] P42 starts IO
+[At time 5306]
+   Q1:
+   Q2:
+   Q3: P14 P17 P22 P36 P5 P18 P11 P19 P31 P3
+[5306--5313] CPU runs P14
+						[5308] P29 completes IO
+						[5311] P35 completes IO
+						[5313] P14 starts IO
+[At time 5313]
+   Q1:
+   Q2:
+   Q3: P17 P22 P36 P5 P18 P11 P19 P31 P3 P29 P35
+[5313--5318] CPU runs P17
+						[5315] P39 completes IO
+						[5318] P17 starts IO
+[At time 5318]
+   Q1:
+   Q2:
+   Q3: P22 P36 P5 P18 P11 P19 P31 P3 P29 P35 P39
+[5318--5324] CPU runs P22
+						[5321] P27 completes IO
+						[5324] P22 starts IO
+[At time 5324]
+   Q1:
+   Q2:
+   Q3: P36 P5 P18 P11 P19 P31 P3 P29 P35 P39 P27
+[5324--5330] CPU runs P36
+						[5326] P33 completes IO
+						[5330] P36 starts IO
+[At time 5330]
+   Q1:
+   Q2:
+   Q3: P5 P18 P11 P19 P31 P3 P29 P35 P39 P27 P33
+[5330--5335] CPU runs P5
+						[5332] P4 completes IO
+						[5335] P5 starts IO
+[At time 5335]
+   Q1:
+   Q2:
+   Q3: P18 P11 P19 P31 P3 P29 P35 P39 P27 P33 P4
+[5335--5342] CPU runs P18
+						[5342] P18 starts IO
+[At time 5342]
+   Q1:
+   Q2:
+   Q3: P11 P19 P31 P3 P29 P35 P39 P27 P33 P4
+[5342--5348] CPU runs P11
+						[5348] P11 starts IO
+[At time 5348]
+   Q1:
+   Q2:
+   Q3: P19 P31 P3 P29 P35 P39 P27 P33 P4
+[5348--5357] CPU runs P19
+						[5355] P20 completes IO
+						[5356] P49 completes IO
+						[5357] P19 terminates
+[At time 5357]
+   Q1:
+   Q2:
+   Q3: P31 P3 P29 P35 P39 P27 P33 P4 P20 P49
+[5357--5367] CPU runs P31
+						[5358] P50 completes IO
+						[5367] P31 starts IO
+[At time 5367]
+   Q1:
+   Q2:
+   Q3: P3 P29 P35 P39 P27 P33 P4 P20 P49 P50
+[5367--5376] CPU runs P3
+						[5376] P3 starts IO
+[At time 5376]
+   Q1:
+   Q2:
+   Q3: P29 P35 P39 P27 P33 P4 P20 P49 P50
+[5376--5385] CPU runs P29
+						[5377] P14 completes IO
+						[5379] P38 completes IO
+						[5385] P29 starts IO
+[At time 5385]
+   Q1:
+   Q2:
+   Q3: P35 P39 P27 P33 P4 P20 P49 P50 P14 P38
+[5385--5393] CPU runs P35
+						[5393] P35 terminates
+[At time 5393]
+   Q1:
+   Q2:
+   Q3: P39 P27 P33 P4 P20 P49 P50 P14 P38
+[5393--5401] CPU runs P39
+						[5398] P5 completes IO
+						[5399] P11 completes IO
+						[5401] P39 starts IO
+[At time 5401]
+   Q1:
+   Q2:
+   Q3: P27 P33 P4 P20 P49 P50 P14 P38 P5 P11
+[5401--5411] CPU runs P27
+						[5403] P42 completes IO
+						[5407] P18 completes IO
+						[5407] P36 completes IO
+						[5411] P27 starts IO
+[At time 5411]
+   Q1:
+   Q2:
+   Q3: P33 P4 P20 P49 P50 P14 P38 P5 P11 P42 P18 P36
+[5411--5419] CPU runs P33
+						[5415] P17 completes IO
+						[5419] P31 completes IO
+						[5419] P33 starts IO
+[At time 5419]
+   Q1:
+   Q2:
+   Q3: P4 P20 P49 P50 P14 P38 P5 P11 P42 P18 P36 P17 P31
+[5419--5426] CPU runs P4
+						[5424] P22 completes IO
+						[5426] P4 starts IO
+[At time 5426]
+   Q1:
+   Q2:
+   Q3: P20 P49 P50 P14 P38 P5 P11 P42 P18 P36 P17 P31 P22
+[5426--5434] CPU runs P20
+						[5429] P3 completes IO
+						[5434] P20 starts IO
+[At time 5434]
+   Q1:
+   Q2:
+   Q3: P49 P50 P14 P38 P5 P11 P42 P18 P36 P17 P31 P22 P3
+[5434--5444] CPU runs P49
+						[5444] P49 starts IO
+[At time 5444]
+   Q1:
+   Q2:
+   Q3: P50 P14 P38 P5 P11 P42 P18 P36 P17 P31 P22 P3
+[5444--5453] CPU runs P50
+						[5453] P50 starts IO
+[At time 5453]
+   Q1:
+   Q2:
+   Q3: P14 P38 P5 P11 P42 P18 P36 P17 P31 P22 P3
+[5453--5459] CPU runs P14
+						[5459] P14 starts IO
+[At time 5459]
+   Q1:
+   Q2:
+   Q3: P38 P5 P11 P42 P18 P36 P17 P31 P22 P3
+[5459--5468] CPU runs P38
+						[5468] P38 starts IO
+[At time 5468]
+   Q1:
+   Q2:
+   Q3: P5 P11 P42 P18 P36 P17 P31 P22 P3
+[5468--5478] CPU runs P5
+						[5469] P27 completes IO
+						[5470] P29 completes IO
+						[5478] P5 starts IO
+[At time 5478]
+   Q1:
+   Q2:
+   Q3: P11 P42 P18 P36 P17 P31 P22 P3 P27 P29
+[5478--5485] CPU runs P11
+						[5485] P33 completes IO
+						[5485] P11 starts IO
+[At time 5485]
+   Q1:
+   Q2:
+   Q3: P42 P18 P36 P17 P31 P22 P3 P27 P29 P33
+[5485--5494] CPU runs P42
+						[5489] P39 completes IO
+						[5494] P42 starts IO
+[At time 5494]
+   Q1:
+   Q2:
+   Q3: P18 P36 P17 P31 P22 P3 P27 P29 P33 P39
+[5494--5499] CPU runs P18
+						[5499] P18 starts IO
+[At time 5499]
+   Q1:
+   Q2:
+   Q3: P36 P17 P31 P22 P3 P27 P29 P33 P39
+[5499--5508] CPU runs P36
+						[5501] P4 completes IO
+						[5508] P36 starts IO
+[At time 5508]
+   Q1:
+   Q2:
+   Q3: P17 P31 P22 P3 P27 P29 P33 P39 P4
+[5508--5518] CPU runs P17
+						[5518] P14 completes IO
+						[5518] P20 completes IO
+						[5518] P50 completes IO
+						[5518] P17 starts IO
+[At time 5518]
+   Q1:
+   Q2:
+   Q3: P31 P22 P3 P27 P29 P33 P39 P4 P14 P20 P50
+[5518--5524] CPU runs P31
+						[5524] P31 starts IO
+[At time 5524]
+   Q1:
+   Q2:
+   Q3: P22 P3 P27 P29 P33 P39 P4 P14 P20 P50
+[5524--5531] CPU runs P22
+						[5531] P22 starts IO
+[At time 5531]
+   Q1:
+   Q2:
+   Q3: P3 P27 P29 P33 P39 P4 P14 P20 P50
+[5531--5541] CPU runs P3
+						[5536] P49 completes IO
+						[5541] P3 starts IO
+[At time 5541]
+   Q1:
+   Q2:
+   Q3: P27 P29 P33 P39 P4 P14 P20 P50 P49
+[5541--5550] CPU runs P27
+						[5547] P38 completes IO
+						[5550] P27 starts IO
+[At time 5550]
+   Q1:
+   Q2:
+   Q3: P29 P33 P39 P4 P14 P20 P50 P49 P38
+[5550--5558] CPU runs P29
+						[5555] P18 completes IO
+						[5556] P11 completes IO
+						[5558] P29 starts IO
+[At time 5558]
+   Q1:
+   Q2:
+   Q3: P33 P39 P4 P14 P20 P50 P49 P38 P18 P11
+[5558--5566] CPU runs P33
+						[5564] P5 completes IO
+						[5566] P33 starts IO
+[At time 5566]
+   Q1:
+   Q2:
+   Q3: P39 P4 P14 P20 P50 P49 P38 P18 P11 P5
+[5566--5571] CPU runs P39
+						[5567] P42 completes IO
+						[5571] P39 starts IO
+[At time 5571]
+   Q1:
+   Q2:
+   Q3: P4 P14 P20 P50 P49 P38 P18 P11 P5 P42
+[5571--5576] CPU runs P4
+						[5576] P17 completes IO
+						[5576] P4 starts IO
+[At time 5576]
+   Q1:
+   Q2:
+   Q3: P14 P20 P50 P49 P38 P18 P11 P5 P42 P17
+[5576--5585] CPU runs P14
+						[5585] P36 completes IO
+						[5585] P14 starts IO
+[At time 5585]
+   Q1:
+   Q2:
+   Q3: P20 P50 P49 P38 P18 P11 P5 P42 P17 P36
+[5585--5595] CPU runs P20
+						[5595] P20 starts IO
+[At time 5595]
+   Q1:
+   Q2:
+   Q3: P50 P49 P38 P18 P11 P5 P42 P17 P36
+[5595--5605] CPU runs P50
+						[5605] P50 starts IO
+[At time 5605]
+   Q1:
+   Q2:
+   Q3: P49 P38 P18 P11 P5 P42 P17 P36
+[5605--5611] CPU runs P49
+						[5607] P31 completes IO
+						[5608] P3 completes IO
+						[5610] P29 completes IO
+						[5611] P49 starts IO
+[At time 5611]
+   Q1:
+   Q2:
+   Q3: P38 P18 P11 P5 P42 P17 P36 P31 P3 P29
+[5611--5616] CPU runs P38
+						[5616] P38 starts IO
+[At time 5616]
+   Q1:
+   Q2:
+   Q3: P18 P11 P5 P42 P17 P36 P31 P3 P29
+[5616--5621] CPU runs P18
+						[5619] P22 completes IO
+						[5621] P27 completes IO
+						[5621] P18 starts IO
+[At time 5621]
+   Q1:
+   Q2:
+   Q3: P11 P5 P42 P17 P36 P31 P3 P29 P22 P27
+[5621--5630] CPU runs P11
+						[5629] P39 completes IO
+						[5630] P11 starts IO
+[At time 5630]
+   Q1:
+   Q2:
+   Q3: P5 P42 P17 P36 P31 P3 P29 P22 P27 P39
+[5630--5640] CPU runs P5
+						[5640] P5 terminates
+[At time 5640]
+   Q1:
+   Q2:
+   Q3: P42 P17 P36 P31 P3 P29 P22 P27 P39
+[5640--5647] CPU runs P42
+						[5647] P42 terminates
+[At time 5647]
+   Q1:
+   Q2:
+   Q3: P17 P36 P31 P3 P29 P22 P27 P39
+[5647--5655] CPU runs P17
+						[5654] P4 completes IO
+						[5655] P17 starts IO
+[At time 5655]
+   Q1:
+   Q2:
+   Q3: P36 P31 P3 P29 P22 P27 P39 P4
+[5655--5662] CPU runs P36
+						[5656] P33 completes IO
+						[5662] P36 starts IO
+[At time 5662]
+   Q1:
+   Q2:
+   Q3: P31 P3 P29 P22 P27 P39 P4 P33
+[5662--5670] CPU runs P31
+						[5664] P50 completes IO
+						[5666] P20 completes IO
+						[5670] P31 starts IO
+[At time 5670]
+   Q1:
+   Q2:
+   Q3: P3 P29 P22 P27 P39 P4 P33 P50 P20
+[5670--5680] CPU runs P3
+						[5671] P18 completes IO
+						[5676] P49 completes IO
+						[5680] P3 starts IO
+[At time 5680]
+   Q1:
+   Q2:
+   Q3: P29 P22 P27 P39 P4 P33 P50 P20 P18 P49
+[5680--5687] CPU runs P29
+						[5682] P14 completes IO
+						[5687] P29 starts IO
+[At time 5687]
+   Q1:
+   Q2:
+   Q3: P22 P27 P39 P4 P33 P50 P20 P18 P49 P14
+[5687--5694] CPU runs P22
+						[5694] P22 terminates
+[At time 5694]
+   Q1:
+   Q2:
+   Q3: P27 P39 P4 P33 P50 P20 P18 P49 P14
+[5694--5704] CPU runs P27
+						[5702] P38 completes IO
+						[5704] P27 starts IO
+[At time 5704]
+   Q1:
+   Q2:
+   Q3: P39 P4 P33 P50 P20 P18 P49 P14 P38
+[5704--5713] CPU runs P39
+						[5709] P11 completes IO
+						[5713] P39 starts IO
+[At time 5713]
+   Q1:
+   Q2:
+   Q3: P4 P33 P50 P20 P18 P49 P14 P38 P11
+[5713--5723] CPU runs P4
+						[5723] P17 completes IO
+						[5723] P4 starts IO
+[At time 5723]
+   Q1:
+   Q2:
+   Q3: P33 P50 P20 P18 P49 P14 P38 P11 P17
+[5723--5731] CPU runs P33
+						[5731] P33 starts IO
+[At time 5731]
+   Q1:
+   Q2:
+   Q3: P50 P20 P18 P49 P14 P38 P11 P17
+[5731--5739] CPU runs P50
+						[5739] P50 starts IO
+[At time 5739]
+   Q1:
+   Q2:
+   Q3: P20 P18 P49 P14 P38 P11 P17
+[5739--5745] CPU runs P20
+						[5745] P20 starts IO
+[At time 5745]
+   Q1:
+   Q2:
+   Q3: P18 P49 P14 P38 P11 P17
+[5745--5755] CPU runs P18
+						[5753] P3 completes IO
+						[5755] P36 completes IO
+						[5755] P18 terminates
+[At time 5755]
+   Q1:
+   Q2:
+   Q3: P49 P14 P38 P11 P17 P3 P36
+[5755--5765] CPU runs P49
+						[5760] P31 completes IO
+						[5765] P27 completes IO
+						[5765] P49 starts IO
+[At time 5765]
+   Q1:
+   Q2:
+   Q3: P14 P38 P11 P17 P3 P36 P31 P27
+[5765--5774] CPU runs P14
+						[5774] P14 starts IO
+[At time 5774]
+   Q1:
+   Q2:
+   Q3: P38 P11 P17 P3 P36 P31 P27
+[5774--5782] CPU runs P38
+						[5775] P29 completes IO
+						[5782] P4 completes IO
+						[5782] P38 starts IO
+[At time 5782]
+   Q1:
+   Q2:
+   Q3: P11 P17 P3 P36 P31 P27 P29 P4
+[5782--5789] CPU runs P11
+						[5789] P11 terminates
+[At time 5789]
+   Q1:
+   Q2:
+   Q3: P17 P3 P36 P31 P27 P29 P4
+[5789--5794] CPU runs P17
+						[5794] P39 completes IO
+						[5794] P17 starts IO
+[At time 5794]
+   Q1:
+   Q2:
+   Q3: P3 P36 P31 P27 P29 P4 P39
+[5794--5800] CPU runs P3
+						[5798] P33 completes IO
+						[5800] P3 terminates
+[At time 5800]
+   Q1:
+   Q2:
+   Q3: P36 P31 P27 P29 P4 P39 P33
+[5800--5806] CPU runs P36
+						[5806] P36 starts IO
+[At time 5806]
+   Q1:
+   Q2:
+   Q3: P31 P27 P29 P4 P39 P33
+[5806--5816] CPU runs P31
+						[5816] P31 starts IO
+[At time 5816]
+   Q1:
+   Q2:
+   Q3: P27 P29 P4 P39 P33
+[5816--5824] CPU runs P27
+						[5824] P27 starts IO
+[At time 5824]
+   Q1:
+   Q2:
+   Q3: P29 P4 P39 P33
+[5824--5829] CPU runs P29
+						[5829] P29 starts IO
+[At time 5829]
+   Q1:
+   Q2:
+   Q3: P4 P39 P33
+[5829--5834] CPU runs P4
+						[5831] P50 completes IO
+						[5834] P4 starts IO
+[At time 5834]
+   Q1:
+   Q2:
+   Q3: P39 P33 P50
+[5834--5841] CPU runs P39
+						[5841] P39 starts IO
+[At time 5841]
+   Q1:
+   Q2:
+   Q3: P33 P50
+[5841--5849] CPU runs P33
+						[5843] P20 completes IO
+						[5843] P38 completes IO
+						[5849] P33 starts IO
+[At time 5849]
+   Q1:
+   Q2:
+   Q3: P50 P20 P38
+[5849--5855] CPU runs P50
+						[5855] P17 completes IO
+						[5855] P50 terminates
+[At time 5855]
+   Q1:
+   Q2:
+   Q3: P20 P38 P17
+[5855--5862] CPU runs P20
+						[5859] P49 completes IO
+						[5862] P20 starts IO
+[At time 5862]
+   Q1:
+   Q2:
+   Q3: P38 P17 P49
+[5862--5870] CPU runs P38
+						[5864] P14 completes IO
+						[5870] P38 starts IO
+[At time 5870]
+   Q1:
+   Q2:
+   Q3: P17 P49 P14
+[5870--5879] CPU runs P17
+						[5879] P17 terminates
+[At time 5879]
+   Q1:
+   Q2:
+   Q3: P49 P14
+[5879--5888] CPU runs P49
+						[5883] P27 completes IO
+						[5884] P29 completes IO
+						[5885] P31 completes IO
+						[5888] P49 starts IO
+[At time 5888]
+   Q1:
+   Q2:
+   Q3: P14 P27 P29 P31
+[5888--5894] CPU runs P14
+						[5894] P14 starts IO
+[At time 5894]
+   Q1:
+   Q2:
+   Q3: P27 P29 P31
+[5894--5901] CPU runs P27
+						[5895] P36 completes IO
+						[5898] P39 completes IO
+						[5901] P27 starts IO
+[At time 5901]
+   Q1:
+   Q2:
+   Q3: P29 P31 P36 P39
+[5901--5910] CPU runs P29
+						[5904] P33 completes IO
+						[5910] P29 starts IO
+[At time 5910]
+   Q1:
+   Q2:
+   Q3: P31 P36 P39 P33
+[5910--5917] CPU runs P31
+						[5912] P20 completes IO
+						[5917] P31 starts IO
+[At time 5917]
+   Q1:
+   Q2:
+   Q3: P36 P39 P33 P20
+[5917--5926] CPU runs P36
+						[5921] P4 completes IO
+						[5922] P38 completes IO
+						[5926] P36 starts IO
+[At time 5926]
+   Q1:
+   Q2:
+   Q3: P39 P33 P20 P4 P38
+[5926--5936] CPU runs P39
+						[5936] P39 starts IO
+[At time 5936]
+   Q1:
+   Q2:
+   Q3: P33 P20 P4 P38
+[5936--5946] CPU runs P33
+						[5946] P33 starts IO
+[At time 5946]
+   Q1:
+   Q2:
+   Q3: P20 P4 P38
+[5946--5956] CPU runs P20
+						[5956] P20 starts IO
+[At time 5956]
+   Q1:
+   Q2:
+   Q3: P4 P38
+[5956--5962] CPU runs P4
+						[5962] P4 starts IO
+[At time 5962]
+   Q1:
+   Q2:
+   Q3: P38
+[5962--5968] CPU runs P38
+						[5968] P38 starts IO
+[At time 5968]
+   Q1:
+   Q2:
+   Q3:
+[5968--5969] CPU idle
+						[5969] P31 completes IO
+[At time 5969]
+   Q1:
+   Q2:
+   Q3: P31
+[5969--5979] CPU runs P31
+						[5974] P29 completes IO
+						[5975] P27 completes IO
+						[5978] P49 completes IO
+						[5979] P31 starts IO
+[At time 5979]
+   Q1:
+   Q2:
+   Q3: P29 P27 P49
+[5979--5988] CPU runs P29
+						[5982] P14 completes IO
+						[5985] P36 completes IO
+						[5988] P29 starts IO
+[At time 5988]
+   Q1:
+   Q2:
+   Q3: P27 P49 P14 P36
+[5988--5994] CPU runs P27
+						[5994] P27 terminates
+[At time 5994]
+   Q1:
+   Q2:
+   Q3: P49 P14 P36
+[5994--5999] CPU runs P49
+						[5999] P49 starts IO
+[At time 5999]
+   Q1:
+   Q2:
+   Q3: P14 P36
+[5999--6007] CPU runs P14
+						[6007] P14 starts IO
+[At time 6007]
+   Q1:
+   Q2:
+   Q3: P36
+[6007--6013] CPU runs P36
+						[6008] P39 completes IO
+						[6011] P20 completes IO
+						[6013] P36 starts IO
+[At time 6013]
+   Q1:
+   Q2:
+   Q3: P39 P20
+[6013--6021] CPU runs P39
+						[6021] P39 starts IO
+[At time 6021]
+   Q1:
+   Q2:
+   Q3: P20
+[6021--6029] CPU runs P20
+						[6025] P38 completes IO
+						[6029] P33 completes IO
+						[6029] P20 terminates
+[At time 6029]
+   Q1:
+   Q2:
+   Q3: P38 P33
+[6029--6034] CPU runs P38
+						[6034] P38 starts IO
+[At time 6034]
+   Q1:
+   Q2:
+   Q3: P33
+[6034--6039] CPU runs P33
+						[6039] P33 starts IO
+[At time 6039]
+   Q1:
+   Q2:
+   Q3:
+[6039--6050] CPU idle
+						[6050] P31 completes IO
+[At time 6050]
+   Q1:
+   Q2:
+   Q3: P31
+[6050--6056] CPU runs P31
+						[6056] P31 terminates
+[At time 6056]
+   Q1:
+   Q2:
+   Q3:
+[6056--6059] CPU idle
+						[6059] P4 completes IO
+[At time 6059]
+   Q1:
+   Q2:
+   Q3: P4
+[6059--6067] CPU runs P4
+						[6063] P49 completes IO
+						[6067] P4 starts IO
+[At time 6067]
+   Q1:
+   Q2:
+   Q3: P49
+[6067--6074] CPU runs P49
+						[6073] P29 completes IO
+						[6074] P49 terminates
+[At time 6074]
+   Q1:
+   Q2:
+   Q3: P29
+[6074--6079] CPU runs P29
+						[6079] P29 terminates
+[At time 6079]
+   Q1:
+   Q2:
+   Q3:
+[6079--6083] CPU idle
+						[6083] P36 completes IO
+[At time 6083]
+   Q1:
+   Q2:
+   Q3: P36
+[6083--6093] CPU runs P36
+						[6087] P14 completes IO
+						[6088] P39 completes IO
+						[6093] P36 starts IO
+[At time 6093]
+   Q1:
+   Q2:
+   Q3: P14 P39
+[6093--6102] CPU runs P14
+						[6099] P38 completes IO
+						[6102] P14 starts IO
+[At time 6102]
+   Q1:
+   Q2:
+   Q3: P39 P38
+[6102--6111] CPU runs P39
+						[6111] P39 starts IO
+[At time 6111]
+   Q1:
+   Q2:
+   Q3: P38
+[6111--6119] CPU runs P38
+						[6119] P38 terminates
+[At time 6119]
+   Q1:
+   Q2:
+   Q3:
+[6119--6123] CPU idle
+						[6123] P33 completes IO
+[At time 6123]
+   Q1:
+   Q2:
+   Q3: P33
+[6123--6129] CPU runs P33
+						[6129] P33 terminates
+[At time 6129]
+   Q1:
+   Q2:
+   Q3:
+[6129--6149] CPU idle
+						[6149] P36 completes IO
+[At time 6149]
+   Q1:
+   Q2:
+   Q3: P36
+[6149--6157] CPU runs P36
+						[6157] P36 terminates
+[At time 6157]
+   Q1:
+   Q2:
+   Q3:
+[6157--6158] CPU idle
+						[6158] P4 completes IO
+[At time 6158]
+   Q1:
+   Q2:
+   Q3: P4
+[6158--6165] CPU runs P4
+						[6163] P14 completes IO
+						[6165] P4 starts IO
+[At time 6165]
+   Q1:
+   Q2:
+   Q3: P14
+[6165--6173] CPU runs P14
+						[6173] P14 starts IO
+[At time 6173]
+   Q1:
+   Q2:
+   Q3:
+[6173--6182] CPU idle
+						[6182] P39 completes IO
+[At time 6182]
+   Q1:
+   Q2:
+   Q3: P39
+[6182--6190] CPU runs P39
+						[6190] P39 starts IO
+[At time 6190]
+   Q1:
+   Q2:
+   Q3:
+[6190--6232] CPU idle
+						[6232] P14 completes IO
+[At time 6232]
+   Q1:
+   Q2:
+   Q3: P14
+[6232--6240] CPU runs P14
+						[6240] P14 starts IO
+[At time 6240]
+   Q1:
+   Q2:
+   Q3:
+[6240--6246] CPU idle
+						[6246] P4 completes IO
+[At time 6246]
+   Q1:
+   Q2:
+   Q3: P4
+[6246--6254] CPU runs P4
+						[6254] P4 starts IO
+[At time 6254]
+   Q1:
+   Q2:
+   Q3:
+[6254--6281] CPU idle
+						[6281] P39 completes IO
+[At time 6281]
+   Q1:
+   Q2:
+   Q3: P39
+[6281--6290] CPU runs P39
+						[6290] P39 starts IO
+[At time 6290]
+   Q1:
+   Q2:
+   Q3:
+[6290--6332] CPU idle
+						[6332] P14 completes IO
+[At time 6332]
+   Q1:
+   Q2:
+   Q3: P14
+[6332--6340] CPU runs P14
+						[6340] P14 terminates
+[At time 6340]
+   Q1:
+   Q2:
+   Q3:
+[6340--6354] CPU idle
+						[6354] P4 completes IO
+[At time 6354]
+   Q1:
+   Q2:
+   Q3: P4
+[6354--6361] CPU runs P4
+						[6361] P4 terminates
+[At time 6361]
+   Q1:
+   Q2:
+   Q3:
+[6361--6367] CPU idle
+						[6367] P39 completes IO
+[At time 6367]
+   Q1:
+   Q2:
+   Q3: P39
+[6367--6376] CPU runs P39
+						[6376] P39 terminates
+[At time 6376]
+   Q1:
+   Q2:
+   Q3:
+[6376] CPU done with all processes
++++ Average wait time for priority 1 processes = 147.166667
++++ Average wait time for priority 2 processes = 1457.642857
++++ Average wait time for priority 3 processes = 3956.416667

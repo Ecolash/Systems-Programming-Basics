@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gcc -Wall -pg $1.c -lm
+./a.out $2 $3
+gprof -b -p -z a.out gmon.out
+rm a.out

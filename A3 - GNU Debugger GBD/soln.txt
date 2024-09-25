@@ -1,0 +1,121 @@
+ROLL NO = 22CS10087
+SECRET FOUND = 830103
+
+Statergy Used to Guess Number:
+
+We use gdb to change our guess value using the 'set var = x' command. 
+We start with a guess of 0, using 'set guess = 0', and find our initial hamming distance. 
+Hamming distance is the number of bit positions in which the two bits are different. 
+Since initially our guess is 0, Hamming Distance gives the number of bits which are 1. 
+For me, it was 11. Then we set each bit to 1 from LSB to MSB. 
+If the Hamming Distance increases, it means that bit is 0. If it decreases, it means that bit is 1. 
+We repeat it for all 20 bits until we reach our target.
+
+Exact Sequence of GDB Commands Used:
+gdb ./guessit
+
+list (get first 10 lines)
+list (get next 10 lines)
+list (get next 10 lines)
+quit (since we found our variable guess we need to modify)
+
+21       guess = 12345;
+22       h = hdistance(argv[1], guess);
+
+In order to modify variable guess using gdb, we need to insert a break point at line 22, the line before the function hdistance is called. 
+By changing the value of guess, we can get different values of hamming distance and reach our target.
+
+gdb ./guessit
+
+break 22
+
+run 22CS10087
+set guess = 0
+continue
+
+run 22CS10087
+set guess = 1
+continue
+
+run 22CS10087
+set guess = 3
+continue
+
+run 22CS10087
+set guess = 7
+continue
+
+run 22CS10087
+set guess = 15
+continue
+
+run 22CS10087
+set guess = 23
+continue
+
+run 22CS10087
+set guess = 55
+continue
+
+run 22CS10087
+set guess = 87
+continue
+
+run 22CS10087
+set guess = 151
+continue
+
+run 22CS10087
+set guess = 407
+continue
+
+run 22CS10087
+set guess = 663
+continue
+
+run 22CS10087
+set guess = 1687
+continue
+
+run 22CS10087
+set guess = 2711
+continue
+
+run 22CS10087
+set guess = 6807
+continue
+
+run 22CS10087
+set guess = 10903
+continue
+
+run 22CS10087
+set guess = 27287
+continue
+
+run 22CS10087
+set guess = 43671
+continue
+
+run 22CS10087
+set guess = 109207
+continue
+
+run 22CS10087
+set guess = 174743
+continue
+
+run 22CS10087
+set guess = 305815
+continue
+
+run 22CS10087
+set guess = 830103
+continue
+
+Continuing.
+Wow, you are bang on the target. Well done.
+
+quit
+
+Thus, our secret number is 830103!!
